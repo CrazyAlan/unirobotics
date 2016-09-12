@@ -9,6 +9,7 @@ Checkout this repo, install depdencies, then start the gulp process with the fol
 
 ```
 	> git clone https://userName:Password@github.com/CrazyAlan/unirobotics.git
+	> cd unirobotics
 	> sudo npm install
 	> npm start
 ```
