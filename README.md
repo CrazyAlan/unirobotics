@@ -8,7 +8,8 @@ There are two methods for getting started with this repo.
 Checkout this repo, install depdencies, then start the gulp process with the following:
 
 ```
-	> git clone https://userName:Password@https://github.com/CrazyAlan/unirobotics.git
+	> git clone https://userName:Password@github.com/CrazyAlan/unirobotics.git
+	> cd unirobotics
 	> sudo npm install
 	> npm start
 ```
