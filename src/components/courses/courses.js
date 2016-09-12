@@ -10,12 +10,10 @@ class Courses extends Component {
 
   renderCourse(){
   	if (typeof this.props.courses.courses !== undefined) {
-  		console.log('renderCourse');
   		var course = this.props.courses.courses[0];
-	  	// return this.props.courses.courses.map((course) => {
-	  	// 	console.log('Enter map');
-	  		return 
-	  		(
+	  	return this.props.courses.courses.map((course) => {
+	  		console.log(course);
+	  		return (
 		  		<div className="item text-left">
 					<div className="course-info">
 						<div className="course-info__block">
@@ -41,7 +39,7 @@ class Courses extends Component {
 					</div>
 				</div>
 			);
-	  	// });	
+	  	});	
 	}				
   }
 
