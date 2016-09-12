@@ -11,10 +11,9 @@ class Courses extends Component {
   renderCourse(){
   	if (typeof this.props.courses.courses !== undefined) {
   		var course = this.props.courses.courses[0];
-	  	return this.props.courses.courses.map((course) => {
-	  		console.log(course);
+	  	return this.props.courses.courses.map((course, i) => {
 	  		return (
-		  		<div className="item text-left">
+		  		<div className="item text-left" key={i}>
 					<div className="course-info">
 						<div className="course-info__block">
 							<img className="course-info__img" src={course.img} alt=""/>
@@ -45,7 +44,6 @@ class Courses extends Component {
 
   render() {
   	if (this.props.courses !== null) {
-  		console.log('this.props.courses', this.props.courses);
   		return (
 			<section id="courses">
 				<div className="container-fluid no-padding pattern-v1">

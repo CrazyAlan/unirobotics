@@ -17,5 +17,7 @@ Checkout this repo, install depdencies, then start the gulp process with the fol
 
 ```
 	> Image storage: assets/img/mine 
-	> Modifiy content: src/actions/index.js
+	> Modify content: src/actions/index.js
+	> Modify different part style: src/components/*
+	> Order Component sequence: src/components/index.js
 ```
