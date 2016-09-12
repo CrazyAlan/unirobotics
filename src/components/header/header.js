@@ -29,31 +29,11 @@ class Header extends Component {
 					<div className="menu-container">
 						<ul className="nav navbar-nav">
 							<li className="page-scroll home nav__text">
-								<a href="#body">Home</a>
+								<a href="/">Home</a>
 							</li>
-							<li className="page-scroll nav__text">
-								<a href="#about">About</a>
-							</li>
-							<li className="page-scroll nav__text">
-								<a href="#courses">Our Courses</a>
-							</li>
-							<li className="page-scroll nav__text">
-								<a href="#numbers">Our Numbers</a>
-							</li>
-							<li className="page-scroll nav__text">
-								<a href="#gallery">Gallery</a>
-							</li>
-							<li className="page-scroll nav__text">
-								<a href="#teachers">Teachers</a>
-							</li>
-							<li className="page-scroll nav__text">
-								<a href="#offers">Offers</a>
-							</li>
-							<li className="page-scroll nav__text">
-								<a href="#partners">Partners</a>
-							</li>
+							
 							<li className="page-scroll nav__text g-sm-mb-20">
-								<a href="#contact">Contact</a>
+								<a href="/courses">Courses</a>
 							</li>
 							<li className="clearfix">
 								<ul className="list-inline hidden-md pull-md-right nav__socials">

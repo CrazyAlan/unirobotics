@@ -1,7 +1,7 @@
 import React from 'react';
 import { Component } from 'react';
 import Header  from './header/header';
-import Promotion  from './promotion/promotion';
+import Promotions  from './promotions/promotions';
 import About  from './about/about';
 import Courses  from './courses/courses';
 import OurNumbers from './our_numbers/our_numbers';
@@ -17,7 +17,7 @@ export default class Main extends Component {
     return (
     	<div>
 	    	<Header />
-	    	<Promotion />
+	    	<Promotions />
 	    	<About />
 	    	<Courses />
 	    	<OurNumbers />
