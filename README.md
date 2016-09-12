@@ -1,4 +1,4 @@
-# ReduxSimpleStarter
+# UniRobotics   
 
 ###Getting Started###
 
@@ -8,16 +8,14 @@ There are two methods for getting started with this repo.
 Checkout this repo, install depdencies, then start the gulp process with the following:
 
 ```
-	> git clone git@github.com:StephenGrider/ReduxSimpleStarter.git
-	> cd ReduxSimpleStarter
-	> npm install
+	> git clone https://userName:Password@https://github.com/CrazyAlan/unirobotics.git
+	> sudo npm install
 	> npm start
 ```
 
-####Not Familiar with Git?#####
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
+####Folder Description#####
 
 ```
-	> npm install
-	> npm start
+	> Image storage: assets/img/mine 
+	> Modifiy content: src/actions/index.js
 ```
