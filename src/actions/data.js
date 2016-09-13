@@ -48,9 +48,9 @@ export const ourNumbers = {
 	description: 'Etiam dolor tortor, egestas a libero eget, sollicitudin maximus nulla. Nunc vitae maximus ipsum. Vestibulum sodales nisi massa, vitae blandit massa luctus id.',
 	advantages: [
 		{counter: 70, h4: 'Courses in our school', details: 'Sed feugiat porttitor nunc Etiam gravida ex justo ac rhoncus purus tristique ut, egestas a libero eget, sollicitudin maximus nulla. Nunc vitae maximus ipsum.'},
-		{counter: 70, h4: 'Courses in our school', details: 'Sed feugiat porttitor nunc Etiam gravida ex justo ac rhoncus purus tristique ut, egestas a libero eget, sollicitudin maximus nulla. Nunc vitae maximus ipsum.'},
-		{counter: 70, h4: 'Courses in our school', details: 'Sed feugiat porttitor nunc Etiam gravida ex justo ac rhoncus purus tristique ut, egestas a libero eget, sollicitudin maximus nulla. Nunc vitae maximus ipsum.'},
-		{counter: 70, h4: 'Courses in our school', details: 'Sed feugiat porttitor nunc Etiam gravida ex justo ac rhoncus purus tristique ut, egestas a libero eget, sollicitudin maximus nulla. Nunc vitae maximus ipsum.'}
+		{counter: 71, h4: 'Courses in our school', details: 'Sed feugiat porttitor nunc Etiam gravida ex justo ac rhoncus purus tristique ut, egestas a libero eget, sollicitudin maximus nulla. Nunc vitae maximus ipsum.'},
+		{counter: 72, h4: 'Courses in our school', details: 'Sed feugiat porttitor nunc Etiam gravida ex justo ac rhoncus purus tristique ut, egestas a libero eget, sollicitudin maximus nulla. Nunc vitae maximus ipsum.'},
+		{counter: 73, h4: 'Courses in our school', details: 'Sed feugiat porttitor nunc Etiam gravida ex justo ac rhoncus purus tristique ut, egestas a libero eget, sollicitudin maximus nulla. Nunc vitae maximus ipsum.'}
 	]
 };
 

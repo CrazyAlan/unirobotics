@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { fetchData } from '../../actions/index';
 import { Link } from 'react-router';
 
 class About extends Component {
@@ -50,7 +49,7 @@ function mapStateToProps(state) {
   return { about: state.data.all.about};
 }
 
-export default connect(mapStateToProps, { fetchData })(About);
+export default connect(mapStateToProps,  null)(About);
 
 
 

@@ -1,12 +1,8 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { fetchPosts } from '../../actions/index';
 import { Link } from 'react-router';
 
 class Contact extends Component {
-  componentWillMount() {
-    //this.props.fetchPosts();
-  }
 
   render() {
     return (
@@ -100,10 +96,10 @@ class Contact extends Component {
 }
 
 function mapStateToProps(state) {
-  return { posts: state.posts.all };
+  return { ourNumbers: state.data.all.ourNumbers};
 }
 
-export default connect(mapStateToProps, { fetchPosts })(Contact);
+export default connect(mapStateToProps, null)(Contact);
 
 
 
