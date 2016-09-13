@@ -15,7 +15,7 @@ class Footer extends Component {
 				<div className="g-pt-60 g-pb-40">
 					<div className="container">
 						<div className="row">
-							<div className="col-md-3 col-sm-6 col-xs-8 col-xs-offset-2 col-sm-offset-0 text-left g-pt-10">
+							<div className="col-md-4 col-sm-6 col-xs-8 col-xs-offset-2 col-sm-offset-0 text-left g-pt-10">
 								<img className="img-responsive g-mb-20 footer-logo__img" src="assets/img/logo-footer.png" alt=""/>
 								<p className="footer__text g-mb-20">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae est lorem. Aenean imperdiet nisi a dolor condimentum, id ullamcorper lacus vestibulum.</p>
 								<ul className="list-inline">
@@ -37,7 +37,7 @@ class Footer extends Component {
 								</ul>
 							</div>
 
-							<div className="col-md-3 col-sm-6 col-xs-8 col-xs-offset-2 col-sm-offset-0 text-left">
+							<div className="col-md-4 col-sm-6 col-xs-8 col-xs-offset-2 col-sm-offset-0 text-left">
 								<h2 className="footer__subtitle font-main">Latest posts</h2>
 								<div className="media">
 								  <div className="media-left">
@@ -64,19 +64,9 @@ class Footer extends Component {
 								</div>
 							</div>
 
-							<div className="col-md-3 col-sm-6 col-xs-8 col-xs-offset-2 col-sm-offset-0 text-left">
-								<h2 className="footer__subtitle font-main">useful links</h2>
-								<ul className="list-unstyled">
-									<li className="g-mb-5"><a href="" className="footer__ulink">- Fusce dolor libero, efficitur et lobortis</a></li>
-									<li className="g-mb-5"><a href="" className="footer__ulink">- Proin fermentum turpis eget nisi</a></li>
-									<li className="g-mb-5"><a href="" className="footer__ulink">- Mauris sodales tellus vel felis dapibus</a></li>
-									<li className="g-mb-5"><a href="" className="footer__ulink">- Ut pulvinar tellus sed elit luctus</a></li>
-									<li className="g-mb-5"><a href="" className="footer__ulink">- Proin sollicitudin turpis in massa rutrum</a></li>
-									<li><a href="" className="footer__ulink">- Vestibulum semper</a></li>
-								</ul>
-							</div>
+							
 
-							<div className="col-md-3 col-sm-6 col-xs-8 col-xs-offset-2 col-sm-offset-0 text-left ">
+							<div className="col-md-4 col-sm-6 col-xs-8 col-xs-offset-2 col-sm-offset-0 text-left ">
 								<h2 className="footer__subtitle font-main">Some photos</h2>
 
 								<ul className="list-inline blog-photostream">

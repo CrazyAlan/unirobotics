@@ -8,11 +8,19 @@ import OurNumbers from './our_numbers/our_numbers';
 import Gallery from './gallery/gallery';
 import Teachers from './teachers/teachers';
 import Offers from './offers/offers';
-import Patterns from './patterns/patterns';
+import Partners from './partners/partners';
 import Contact from './contact/contact';
 import Footer from './footer/footer';
 
-export default class Main extends Component {
+import { connect } from 'react-redux';
+import { fetchData } from '../actions/index';
+
+class Main extends Component {
+  
+  componentWillMount() {
+    this.props.fetchData();
+  }
+
   render() {
     return (
     	<div>
@@ -24,10 +32,14 @@ export default class Main extends Component {
 	    	<Gallery />
 	    	<Teachers />
 	    	<Offers />
-	    	<Patterns />
+	    	<Partners />
 	    	<Contact />
 	    	<Footer />
 	    </div>
     );
   }
 }
+
+
+export default connect(null, { fetchData })(Main);
+
