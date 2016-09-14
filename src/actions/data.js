@@ -100,6 +100,12 @@ export const partners = {
 	]
 };
 
+export const contact = {
+	tab1: 'Write us',
+	tab2: 'Contacts'
+
+};
+
 export const footer = {
 	logo: 'assets/img/logo-footer.png',
 	description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae est lorem. Aenean imperdiet nisi a dolor condimentum, id ullamcorper lacus vestibulum.',
@@ -108,7 +114,9 @@ export const footer = {
 		{link: '#', type: 'facebook'},
 		{link: '#', type: 'facebook'}
 	],
-	last_posts: [
+
+	h2: 'Latest Posts',
+	latest_posts: [
 		{img: 'assets/img-temp/post-footer1.jpg', date: 'April 27, 2015', link: '#', title: 'Mauris tellus magna, pretium a feugiat'},
 		{img: 'assets/img-temp/post-footer1.jpg', date: 'April 27, 2015', link: '#', title: 'Mauris tellus magna, pretium a feugiat'}		
 	],
