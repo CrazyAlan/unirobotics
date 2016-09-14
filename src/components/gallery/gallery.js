@@ -4,9 +4,9 @@ import { Link } from 'react-router';
 
 class Gallery extends Component {
   
-  renderImg(pic){
+  renderImg(pic, i){
   	return (
-  		<div className="cbp-item">
+  		<div className="cbp-item" key={i}>
 			<a href={pic.img} className="cbp-caption cbp-lightbox" data-title={pic.data_title}>
 				<div className="cbp-caption-defaultWrap">
 					<img src={pic.img} alt=""/>
@@ -47,8 +47,8 @@ class Gallery extends Component {
 					<div className="cube-portfolio cube-portfolio--mod">
 						<div id="grid-container" className="cbp-l-grid-gallery">
 							{
-								gallery.pics.map((pic) => {
-									return this.renderImg(pic)
+								gallery.pics.map((pic, i) => {
+									return this.renderImg(pic, i)
 								})
 							}
 						</div>

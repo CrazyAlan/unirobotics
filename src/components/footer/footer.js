@@ -10,9 +10,9 @@ class Footer extends Component {
   		<div className="col-md-4 col-sm-6 col-xs-8 col-xs-offset-2 col-sm-offset-0 text-left">
 			<h2 className="footer__subtitle font-main">{h2}</h2>
 			{
-				latest_posts.map((post)=>{
+				latest_posts.map((post, i)=>{
 					return (
-						<div className="media">
+						<div className="media" key={i}>
 						  <div className="media-left">
 						    <a href={post.link}>
 						      <img className="media-object footer-post__img" src={post.img} alt=""/>
@@ -38,9 +38,9 @@ class Footer extends Component {
 
 			<ul className="list-inline blog-photostream">
 			{
-				pics.map((pic)=>{
+				pics.map((pic, i)=>{
 					return (
-						<li className="img-hover-v2">
+						<li className="img-hover-v2" key={i}>
 							<a href={pic.thumbnails} className="cbp-caption cbp-lightbox" title={pic.title}>
 								<span><img className="img-responsive" src={pic.img} alt=""/></span>
 							</a>
@@ -66,9 +66,9 @@ class Footer extends Component {
 								<p className="footer__text g-mb-20">{ footer.description}</p>
 								<ul className="list-inline">
 								{
-									footer.socials.map((social) => {
+									footer.socials.map((social, i) => {
 										return (
-											<li>
+											<li key={i}>
 												<a href={social.link} className="footer__social">
 													<i className={"icon-custom icon-sm rounded-x fa fa-" + social.type}></i>
 												</a>

@@ -1,10 +1,24 @@
-import React, { Component } from 'react';
-import { connect } from 'react-redux';
+import React, { Component, PropTypes } from 'react';
+import { reduxForm } from 'redux-form';
+import { createContact } from '../../actions/index';
 import { Link } from 'react-router';
 
 class Contact extends Component {
+  onSubmit(props) {
+    // this.props.createContact(props)
+    //   .then(() => {
+    //     // blog post has been created, navigate the user to the index
+    //     // We navigate by calling this.context.router.push with the
+    //     // new path to navigate to.
+    //     this.context.router.push('/');
+    //   });
+    console.log("submit form");
+    $("#sky-form3").addClass('submited');
+  }
 
   render() {
+  	const { fields: { name, subject, message }, handleSubmit } = this.props;
+
     return (
 		<section id="contact">
 			<div className="container">
@@ -18,12 +32,12 @@ class Contact extends Component {
 						<div className="tab-content">
 							<div className="tab-pane fade in active" id="write-us">
 								<div className="form">
-									<form action="#" method="post" id="sky-form3" className="sky-form contact-style">
+									<form onSubmit={handleSubmit(this.onSubmit.bind(this))} id="sky-form3" className="sky-form contact-style">
 										<fieldset>
 											<div className="row">
 												<div className="col-md-12 g-mb-30">
 													<div>
-														<input type="text" name="name" id="name" className="form-control contact__form-control" placeholder="Your name"/>
+														<input type="text" {...name} id="name" className="form-control contact__form-control" placeholder="Your name"/>
 													</div>
 												</div>
 											</div>
@@ -31,7 +45,7 @@ class Contact extends Component {
 											<div className="row">
 												<div className="col-md-12 g-mb-30">
 													<div>
-														<input type="text" name="subject" id="subject" className="form-control contact__form-control" placeholder="Subject"/>
+														<input type="text" {...subject} id="subject" className="form-control contact__form-control" placeholder="Subject"/>
 													</div>
 												</div>
 											</div>
@@ -39,7 +53,7 @@ class Contact extends Component {
 											<div className="row">
 												<div className="col-md-12 g-mb-30">
 													<div>
-														<textarea rows="4" name="message" id="message" className="form-control contact__form-control g-textarea-noresize" placeholder="Message"></textarea>
+														<textarea rows="4" {...message} id="message" className="form-control contact__form-control g-textarea-noresize" placeholder="Message"></textarea>
 													</div>
 												</div>
 											</div>
@@ -96,11 +110,31 @@ class Contact extends Component {
 }
 
 function mapStateToProps(state) {
-  return { ourNumbers: state.data.all.ourNumbers};
+  return { contact: state.data.all.contact};
 }
 
-export default connect(mapStateToProps, null)(Contact);
+function validate(values) {
+  const errors = {};
 
+  if (!values.name) {
+    errors.title = 'Enter your name';
+  }
+  if (!values.subject) {
+    errors.categories = 'Enter subject';
+  }
+  if(!values.message || values.message.length < 10) {
+    errors.content = 'Enter message';
+  }
 
+  return errors;
+}
+
+// connect: first argument is mapStateToProps, 2nd is mapDispatchToProps
+// reduxForm: 1st is form config, 2nd is mapStateToProps, 3rd is mapDispatchToProps
+export default reduxForm({
+  form: 'ContactForm',
+  fields: ['name', 'subject', 'message'],
+  validate
+}, mapStateToProps, { createContact })(Contact);
 
 		

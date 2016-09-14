@@ -4,9 +4,9 @@ import { Link } from 'react-router';
 
 class Offers extends Component {
   
-  renderCourse(course){
+  renderCourse(course, i){
   	return(
-  		<div className="item text-center g-mb-40">
+  		<div className="item text-center g-mb-40" key={i}>
 			<div className="offer g-padding-50">
 				<span className="offer__price g-dp-block">${course.price}</span>
 				<span className="offer__price--per g-dp-block g-mb-30">{course.unit}</span>
@@ -32,8 +32,8 @@ class Offers extends Component {
 
 						<div className="owl2-carousel-v4 owl-theme dots-v1">
 							{
-								offers.courses.map((course)=>{
-									return this.renderCourse(course)
+								offers.courses.map((course, i)=>{
+									return this.renderCourse(course, i)
 								})
 							}
 						</div>
