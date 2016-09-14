@@ -85,18 +85,18 @@ export const partners = {
 	h1: 'Who trusts us',
 	description: 'Etiam dolor tortor, egestas a libero eget, sollicitudin maximus nulla. Nunc vitae maximus ipsum. Vestibulum sodales nisi massa, vitae blandit massa luctus id.',
 	pics: [
-		{img: 'assets/img-temp/partners/img01.png'},
-		{img: 'assets/img-temp/partners/img02.png'},
-		{img: 'assets/img-temp/partners/img03.png'},
-		{img: 'assets/img-temp/partners/img04.png'},
-		{img: 'assets/img-temp/partners/img05.png'},
-		{img: 'assets/img-temp/partners/img06.png'},
-		{img: 'assets/img-temp/partners/img07.png'},
-		{img: 'assets/img-temp/partners/img08.png'},
-		{img: 'assets/img-temp/partners/img09.png'},
-		{img: 'assets/img-temp/partners/img10.png'},
-		{img: 'assets/img-temp/partners/img11.png'},
-		{img: 'assets/img-temp/partners/img12.png'}
+		{img: 'assets/img-temp/partners/img01.png', link: '#'},
+		{img: 'assets/img-temp/partners/img02.png', link: '#'},
+		{img: 'assets/img-temp/partners/img03.png', link: '#'},
+		{img: 'assets/img-temp/partners/img04.png', link: '#'},
+		{img: 'assets/img-temp/partners/img05.png', link: '#'},
+		{img: 'assets/img-temp/partners/img06.png', link: '#'},
+		{img: 'assets/img-temp/partners/img07.png', link: '#'},
+		{img: 'assets/img-temp/partners/img08.png', link: '#'},
+		{img: 'assets/img-temp/partners/img09.png', link: '#'},
+		{img: 'assets/img-temp/partners/img10.png', link: '#'},
+		{img: 'assets/img-temp/partners/img11.png', link: '#'},
+		{img: 'assets/img-temp/partners/img12.png', link: '#'}
 	]
 };
 
