@@ -41,7 +41,6 @@ class Teachers extends Component {
   	
   }
   render() {
-  	console.log('renderTeacher', this.props.teachers);
   	if (this.props.teachers !== null) {
 	    return (
 			<section id="teachers">
