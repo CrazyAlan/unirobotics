@@ -1,3 +1,15 @@
+export const header = {
+	logo: 'assets/img/logo.png',
+	tabs: [
+		{name: 'Home', link: '/'},
+		{name: 'Courses', link: 'courses'}
+	],
+	socials: [
+		{link: '#', name: 'facebook'},
+		{link: '#', name: 'twitter'}	
+	]
+};
+
 export const promotions = [
                     {'course': 'Dance Courses', 'level': 'beginner','id': 0, 'img': 'assets/img/mine/lego.jpg', 'duration': '6 months', 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla.'},
                     {'course': 'Dance Courses', 'level': 'intermediate' ,'id': 1, 'img': 'assets/img/mine/arduino.jpg', 'duration': '6 months', 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla.'},
