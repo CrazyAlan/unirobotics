@@ -43,7 +43,7 @@ class Header extends Component {
 									{
 										header.socials.map((social, i) =>{
 											return (
-												<li>
+												<li key={i}>
 													<a href={social.link} className="nav__social g-ml-15 g-sm-ml-0">
 														<i className={`icon-custom icon-sm rounded-x fa fa-${social.name}`}></i>
 													</a>

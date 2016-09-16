@@ -32,7 +32,7 @@ function initMap() {
 	var map = new google.maps.Map(document.getElementById('map'), {
 		zoom: 12,
 		scrollwheel: false,
-		center: {lat: 40.674, lng: -73.946},  // Brooklyn.
+		center: {lat: 49.2691144, lng: -122.9484844},  // Brooklyn.
 		mapTypeControlOptions: {
 			mapTypeIds: [google.maps.MapTypeId.ROADMAP, customMapTypeId]
 		}
@@ -45,7 +45,7 @@ function initMap() {
 		map: map,
 		clickable: false,
 		icon: image,
-		position: {lat: 40.674, lng: -73.946}
+		position: {lat: 49.2780937, lng:-122.9198833}
 	});
 
 	map.mapTypes.set(customMapTypeId, customMapType);

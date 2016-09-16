@@ -6,11 +6,13 @@ import PostsIndex from './components/posts_index';
 import PostsNew from './components/posts_new';
 import PostsShow from './components/posts_show';
 import Main from './components';
+import CoursePage from './components/courses';
+import ContactPage from './components/contacts';
 
 export default (
   <Route path="/" component={App}>
     <IndexRoute component={Main} />
-    <Route path="posts/new" component={PostsNew} />
-    <Route path="posts/:id" component={PostsShow} />
+    <Route path="courses" component={CoursePage} />
+    <Route path="contacts" component={ContactPage} />
   </Route>
 );

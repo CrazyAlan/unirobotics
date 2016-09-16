@@ -35,7 +35,7 @@ class Promotion extends Component {
 
   render() {
     return (
-			<div className="container-fluid g-pr-30 g-pl-30">
+			<div className="container-fluid g-pr-30 g-pl-30 g-pb-100">
 				{/*  Owl Carousel v1  */}
 				<div className="owl2-carousel-v1 owl-theme slideInUp">
 					
