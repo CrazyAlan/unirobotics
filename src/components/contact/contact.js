@@ -90,7 +90,7 @@ class Contact extends Component {
 									<ul className="list-unstyled col-md-4">
 										<li><span className="icon-envelope-open contact-list__icon g-dp-block g-mb-10"></span></li>
 										<li className="contact-list__item-1">Email</li>
-										<li className="contact-list__item-2">info@unify.com</li>
+										<li className="contact-list__item-2">info@unitutor.com</li>
 									</ul>
 								</div>
 							</div>

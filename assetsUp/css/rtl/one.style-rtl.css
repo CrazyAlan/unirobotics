@@ -1,5 +1,5 @@
 /*
-* Template Name: Unify - Responsive Bootstrap Template
+* Template Name: unitutor - Responsive Bootstrap Template
 * Author: @htmlstream
 * Website: http://htmlstream.com
 */

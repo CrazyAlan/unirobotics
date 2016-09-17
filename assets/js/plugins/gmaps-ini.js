@@ -17,7 +17,7 @@ function initMap() {
 				stylers: [{color: '#c7eced'}]
 			}
 		], {
-			name: 'Unify Style'
+			name: 'unitutor Style'
 	});
 
 	var image = new google.maps.MarkerImage(
