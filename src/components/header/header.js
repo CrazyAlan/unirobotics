@@ -14,17 +14,14 @@ class Header extends Component {
 
    	if (lang === 'en') {
   		updateConfig('cn')
-  		fetchPromotions('cn');
-  		fetchCourses('cn');
-  		fetchTeachers('cn');
-  		fetchData('cn');
   	} else {
   		updateConfig('en')
-  		fetchPromotions('en');
-  		fetchCourses('en');
-  		fetchTeachers('en');
-  		fetchData('en');
   	};
+
+  	fetchPromotions();
+	fetchCourses();
+	fetchTeachers();
+	fetchData();
 
   }
   

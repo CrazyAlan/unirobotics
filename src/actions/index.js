@@ -15,8 +15,10 @@ export const UPDATE_CONFIG = 'UPDATE_CONFIG';
 const ROOT_URL = 'http://reduxblog.herokuapp.com/api';
 const API_KEY = '?key=lkajdsfapipwietpw';
 
+var language = 'en';
 
 export function updateConfig(lang){
+  language = lang;
 
   return {
     type: UPDATE_CONFIG,
@@ -24,39 +26,39 @@ export function updateConfig(lang){
   }
 }
 
-export function fetchPromotions(lang='en'){
+export function fetchPromotions(){
   
   return {
     type: FETCH_PROMOTIONS,
-    payload: lang === 'cn' ? dataCn.promotions : data.promotions
+    payload: language === 'cn' ? dataCn.promotions : data.promotions
   }
 }
 
-export function fetchCourses(lang='en'){
+export function fetchCourses(){
 
   return {
     type: FETCH_COURSES,
-    payload: data.courses
+    payload: language === 'cn' ? dataCn.courses : data.courses
   }
 }
 
-export function fetchTeachers(lang='en'){
+export function fetchTeachers(){
 
   return {
     type: FETCH_TEACHERS,
-    payload: data.teachers
+    payload: language === 'cn' ? dataCn.teachers : data.teachers
   }
 }
 
-export function fetchData(lang='en'){
+export function fetchData(){
   
   return {
     type: FETCH_DATA,
-    payload: data
+    payload: language === 'cn' ? dataCn : data
   }
 }
 
-export function fetchPosts(lang='en') {
+export function fetchPosts() {
   const request = axios.get(`${ROOT_URL}/posts${API_KEY}`);
 
   return {

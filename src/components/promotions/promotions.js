@@ -6,7 +6,7 @@ import { Link } from 'react-router';
 class Promotion extends Component {
   componentWillMount() {
 
-    this.props.fetchPromotions(this.props.lang);
+    this.props.fetchPromotions();
   }
 
   renderPromotion() {
