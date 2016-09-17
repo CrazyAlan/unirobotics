@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { fetchPromotions } from '../../actions/index';
+import { fetchPromotions,  } from '../../actions/index';
 import { Link } from 'react-router';
 
 class Promotion extends Component {
   componentWillMount() {
-    this.props.fetchPromotions();
+
+    this.props.fetchPromotions(this.props.lang);
   }
 
   renderPromotion() {
@@ -48,7 +49,7 @@ class Promotion extends Component {
 }
 
 function mapStateToProps(state) {
-  return { promotions: state.promotions.all };
+  return { promotions: state.promotions.all , lang: state.config.lang };
 }
 
 export default connect(mapStateToProps, { fetchPromotions })(Promotion);

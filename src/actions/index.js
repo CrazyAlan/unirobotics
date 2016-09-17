@@ -1,5 +1,6 @@
 import axios from 'axios';
 import * as data from './data'
+import * as dataCn from './dataCn'
 export const FETCH_POSTS = 'FETCH_POSTS';
 export const CREATE_POST = 'CREATE_POST';
 export const FETCH_POST = 'FETCH_POST';
@@ -8,21 +9,29 @@ export const FETCH_PROMOTIONS = 'FETCH_PROMOTIONS';
 export const FETCH_COURSES = 'FETCH_COURSES';
 export const FETCH_TEACHERS = 'FETCH_TEACHERS';
 export const FETCH_DATA = 'FETCH_DATA';
+export const FETCH_CONFIG = 'FETCH_CONFIG';
+export const UPDATE_CONFIG = 'UPDATE_CONFIG';
 
 const ROOT_URL = 'http://reduxblog.herokuapp.com/api';
 const API_KEY = '?key=lkajdsfapipwietpw';
 
 
-
-export function fetchPromotions(){
-
+export function updateConfig(lang){
   return {
-    type: FETCH_PROMOTIONS,
-    payload: data.promotions
+    type: UPDATE_CONFIG,
+    payload: lang
   }
 }
 
-export function fetchCourses(){
+export function fetchPromotions(lang='en'){
+  
+  return {
+    type: FETCH_PROMOTIONS,
+    payload: lang === 'cn' ? dataCn.promotions : data.promotions
+  }
+}
+
+export function fetchCourses(lang='en'){
 
   return {
     type: FETCH_COURSES,
@@ -30,7 +39,7 @@ export function fetchCourses(){
   }
 }
 
-export function fetchTeachers(){
+export function fetchTeachers(lang='en'){
 
   return {
     type: FETCH_TEACHERS,
@@ -38,7 +47,7 @@ export function fetchTeachers(){
   }
 }
 
-export function fetchData(){
+export function fetchData(lang='en'){
   
   return {
     type: FETCH_DATA,
@@ -46,7 +55,7 @@ export function fetchData(){
   }
 }
 
-export function fetchPosts() {
+export function fetchPosts(lang='en') {
   const request = axios.get(`${ROOT_URL}/posts${API_KEY}`);
 
   return {

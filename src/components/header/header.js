@@ -1,11 +1,26 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
+import { updateConfig } from '../../actions/index';
 import { Link } from 'react-router';
 
 class Header extends Component {
+  componentWillMount() {
+	    //this.props.fetchData();
+  }
+
+  changeLang() {
+
+  	const { lang } = this.props;
+
+   	if (lang === 'en') {
+  		this.props.updateConfig('cn')
+  	} else {
+  		this.props.updateConfig('en');
+  	};
+  }
   
   render() {
-  	const { header } = this.props;
+  	const { header, lang } = this.props;
     return (
       <nav className="header one-page-header navbar navbar-default navbar-fixed-top courses-header one-page-nav-scrolling one-page-nav__fixed" data-role="navigation">
 			<div className="container-fluid g-pr-40 g-pl-40">
@@ -35,7 +50,14 @@ class Header extends Component {
 								})
 							}
 							
-							
+							<li className="page-scroll home nav__text" >
+								<button onClick={this.changeLang.bind(this)}> 
+								{
+								  lang === 'en' ? '中文' : 'EN'
+								} 
+								</button>
+							</li>
+
 							
 
 							<li className="clearfix">
@@ -63,10 +85,10 @@ class Header extends Component {
 }
 
 function mapStateToProps(state) {
-  return { header: state.data.all.header };
+  return { header: state.data.all.header, lang: state.config.lang };
 }
 
-export default connect(mapStateToProps, null)(Header);
+export default connect(mapStateToProps, {updateConfig})(Header);
 
 
 

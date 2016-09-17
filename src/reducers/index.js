@@ -4,6 +4,7 @@ import PromotionsReducer from './reducer_promotions';
 import CoursesReducer from './reducer_courses';
 import TeachersReducer from './reducer_teachers';
 import DataReducer from './reducer_data';
+import ConfigReducer from './reducer_config';
 import { reducer as formReducer } from 'redux-form';
 
 const rootReducer = combineReducers({
@@ -12,7 +13,8 @@ const rootReducer = combineReducers({
   promotions: PromotionsReducer,
   courses: CoursesReducer,
   teachers: TeachersReducer,
-  data: DataReducer
+  data: DataReducer,
+  config: ConfigReducer
   
 });
 
