@@ -7,7 +7,6 @@ export default class App extends Component {
 
 	loadJS("../../assets/js/plugins/cube-portfolio.js")
     .then(function() {
-      console.log("jQuery is loaded");
       window.App.init();
 		window.App.initCounter();
 		window.Owl2Carouselv1.initOwl2Carouselv1();
@@ -16,24 +15,17 @@ export default class App extends Component {
 		window.Owl2Carouselv4.initOwl2Carouselv4();
 		window.Owl2Carouselv5.initOwl2Carouselv5();
 		window.ContactForm.initContactForm();
+
+		window.initMap();
     });
 
-    loadJS("https://maps.googleapis.com/maps/api/js?signed_in=true")
-    .then(
-    	loadJS("../../assets/js/plugins/gmaps-ini.js").
-    	then(function(){
-    		console.log('loaded google');
-    	})
-    )
-
-    console.log('update componentDidUpdate');
+    console.log('componentDidUpdate');
 
   }
 
   componentDidMount() {
   	loadJS("../../assets/js/plugins/cube-portfolio.js")
     .then(function() {
-      console.log("jQuery is loaded");
       window.App.init();
 		window.App.initCounter();
 		window.Owl2Carouselv1.initOwl2Carouselv1();
@@ -42,9 +34,12 @@ export default class App extends Component {
 		window.Owl2Carouselv4.initOwl2Carouselv4();
 		window.Owl2Carouselv5.initOwl2Carouselv5();
 		window.ContactForm.initContactForm();
+		window.initMap();
+
     });
 
-    console.log('update componentDidUpdate');
+
+    console.log(' componentDidMount');
   }
 
   render() {
