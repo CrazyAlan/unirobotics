@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { updateConfig } from '../../actions/index';
+import { updateConfig, fetchPromotions, fetchCourses, fetchTeachers, fetchData } from '../../actions/index';
 import { Link } from 'react-router';
 
 class Header extends Component {
@@ -10,13 +10,22 @@ class Header extends Component {
 
   changeLang() {
 
-  	const { lang } = this.props;
+  	const { lang, updateConfig, fetchPromotions, fetchCourses, fetchTeachers, fetchData } = this.props;
 
    	if (lang === 'en') {
-  		this.props.updateConfig('cn')
+  		updateConfig('cn')
+  		fetchPromotions('cn');
+  		fetchCourses('cn');
+  		fetchTeachers('cn');
+  		fetchData('cn');
   	} else {
-  		this.props.updateConfig('en');
+  		updateConfig('en')
+  		fetchPromotions('en');
+  		fetchCourses('en');
+  		fetchTeachers('en');
+  		fetchData('en');
   	};
+
   }
   
   render() {
@@ -88,7 +97,7 @@ function mapStateToProps(state) {
   return { header: state.data.all.header, lang: state.config.lang };
 }
 
-export default connect(mapStateToProps, {updateConfig})(Header);
+export default connect(mapStateToProps, { updateConfig, fetchPromotions, fetchCourses, fetchTeachers, fetchData })(Header);
 
 
 

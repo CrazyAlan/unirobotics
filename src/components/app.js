@@ -34,7 +34,6 @@ export default class App extends Component {
 		window.Owl2Carouselv4.initOwl2Carouselv4();
 		window.Owl2Carouselv5.initOwl2Carouselv5();
 		window.ContactForm.initContactForm();
-		window.initMap();
 
     });
 

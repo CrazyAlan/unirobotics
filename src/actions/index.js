@@ -17,6 +17,7 @@ const API_KEY = '?key=lkajdsfapipwietpw';
 
 
 export function updateConfig(lang){
+
   return {
     type: UPDATE_CONFIG,
     payload: lang
