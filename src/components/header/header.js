@@ -44,7 +44,7 @@ class Header extends Component {
 								header.tabs.map((tab, i) => {
 									return (
 										<li className="page-scroll home nav__text" key={i}>
-											<a href={tab.link}>{tab.name}</a>
+											<Link to={tab.link}>{tab.name}</Link>
 										</li>
 									)
 								})

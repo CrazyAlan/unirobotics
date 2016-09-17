@@ -16,6 +16,7 @@ class Main extends Component {
   
   componentWillMount() {
     this.props.fetchData();
+    //console.log($.fn);
   }
 
   render() {
