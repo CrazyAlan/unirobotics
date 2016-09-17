@@ -13,8 +13,8 @@ export const header = {
 
 export const promotions = [
                     {'course': 'Dance Courses', 'level': 'beginner','id': 0, 'img': 'assets/img/mine/lego.jpg', 'duration': '6 months', 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla.'},
-                    {'course': 'Dance Courses', 'level': 'intermediate' ,'id': 1, 'img': 'assets/img/mine/arduino.jpg', 'duration': '6 months', 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla.'},
-                    {'course': 'Dance Courses', 'level': 'advanced' ,'id': 2, 'img': 'assets/img-temp/slider1.jpg', 'duration': '6 months', 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla.'}
+                    {'course': 'Dance Courses', 'level': 'intermediate' ,'id': 1, 'img': 'assets/img/mine/lego.jpg', 'duration': '6 months', 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla.'},
+                    {'course': 'Dance Courses', 'level': 'advanced' ,'id': 2, 'img': 'assets/img/mine/lego.jpg', 'duration': '6 months', 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla.'}
                    ];
 
 export const courses = {

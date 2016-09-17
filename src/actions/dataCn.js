@@ -13,8 +13,8 @@ export const header = {
 
 export const promotions = [
                     {'course': '乐高机器人', 'level': '初级','id': 0, 'img': 'assets/img/mine/lego.jpg', 'duration': '6 months', 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla.'},
-                    {'course': '乐高机器人', 'level': '中级' ,'id': 1, 'img': 'assets/img/mine/arduino.jpg', 'duration': '6 months', 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla.'},
-                    {'course': '乐高机器人', 'level': '高级' ,'id': 2, 'img': 'assets/img-temp/slider1.jpg', 'duration': '6 months', 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla.'}
+                    {'course': '乐高机器人', 'level': '中级' ,'id': 1, 'img': 'assets/img/mine/lego.jpg', 'duration': '6 months', 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla.'},
+                    {'course': '乐高机器人', 'level': '高级' ,'id': 2, 'img': 'assets/img/mine/lego.jpg', 'duration': '6 months', 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla.'}
                    ];
 
 export const courses = {

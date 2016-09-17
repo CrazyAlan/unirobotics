@@ -8,8 +8,8 @@ var Owl2Carouselv1 = function () {
 				items: 3,
 				margin: 30,
 				loop: true,
-				autoplay: true,
-				autoplayTimeout: 10000,
+				autoplay: false,
+				autoplayTimeout: 200,
 				// autoplayHoverPause: true,
 				responsive: {
 					0:{
