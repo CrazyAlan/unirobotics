@@ -5,7 +5,7 @@ var Owl2Carouselv3 = function () {
 			$('.owl2-carousel-v3').owlCarousel({
 				margin: 5,
 				loop: true,
-				autoplay: true,
+				autoplay: false,
 				autoplayTimeout: 7000,
 				autoplayHoverPause: true,
 				items: 4,

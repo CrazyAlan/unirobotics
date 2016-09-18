@@ -50,7 +50,7 @@ class Gallery extends Component {
 					</div>
 				</div>
 
-				<div className="container-fluid">
+				<div className="container">
 					<div className="cube-portfolio cube-portfolio--mod">
 						{this.renderLethic()}
 					</div>
