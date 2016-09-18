@@ -8,7 +8,7 @@ import Gallery from './gallery/gallery';
 import Teachers from './teachers/teachers';
 import Offers from './offers/offers';
 import Footer from './footer/footer';
-
+import OurNumber from './our_numbers/our_numbers';
 import { connect } from 'react-redux';
 import { fetchData } from '../actions/index';
 
@@ -28,7 +28,7 @@ class Main extends Component {
 	    	<Gallery />
 	    	<Teachers />
 	    	<Offers />
-	    	
+	        <OurNumber />	
 	    	<Footer />
 	    </div>
     );
