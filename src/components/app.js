@@ -15,6 +15,10 @@ export default class App extends Component {
 		window.Owl2Carouselv4.initOwl2Carouselv4();
 		window.Owl2Carouselv5.initOwl2Carouselv5();
 		window.ContactForm.initContactForm();
+    loadJS("../../assetsUp/js/lethic.js")
+    .then(()=> {
+      console.log("load lethic")
+    })
 
 		window.initMap();
     });
@@ -34,6 +38,10 @@ export default class App extends Component {
 		window.Owl2Carouselv4.initOwl2Carouselv4();
 		window.Owl2Carouselv5.initOwl2Carouselv5();
 		window.ContactForm.initContactForm();
+    loadJS("../../assetsUp/js/lethic.js")
+    .then(()=> {
+      console.log("load lethic")
+    })
 
     });
 

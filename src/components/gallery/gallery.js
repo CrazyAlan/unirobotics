@@ -24,6 +24,13 @@ class Gallery extends Component {
   	);
   }
 
+  renderLethic(){
+  	return (
+  		<div id="cp_widget_eccd4ec1-5ebc-4314-a1e2-92c9dcfce36a">...</div>
+  		)
+
+  }
+
   render() {
   	const { gallery } = this.props;
 
@@ -45,13 +52,7 @@ class Gallery extends Component {
 
 				<div className="container-fluid">
 					<div className="cube-portfolio cube-portfolio--mod">
-						<div id="grid-container" className="cbp-l-grid-gallery">
-							{
-								gallery.pics.map((pic, i) => {
-									return this.renderImg(pic, i)
-								})
-							}
-						</div>
+						{this.renderLethic()}
 					</div>
 				</div>
 			</div>
