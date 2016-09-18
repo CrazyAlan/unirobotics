@@ -12,9 +12,9 @@ export const header = {
 };
 
 export const promotions = [
-                    {'course': 'Dance Courses', 'level': 'beginner','id': 0, 'img': 'assets/img/mine/lego.jpg', 'duration': '6 months', 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla.'},
-                    {'course': 'Dance Courses', 'level': 'intermediate' ,'id': 1, 'img': 'assets/img/mine/lego.jpg', 'duration': '6 months', 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla.'},
-                    {'course': 'Dance Courses', 'level': 'advanced' ,'id': 2, 'img': 'assets/img/mine/lego.jpg', 'duration': '6 months', 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla.'}
+                    {'course': 'Lego', 'level': 'beginner','id': 0, 'img': 'assets/img/home/lego_cropped.png', 'duration': '6 months', 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla.'},
+                    {'course': 'Arduino', 'level': 'intermediate' ,'id': 1, 'img': 'assets/img/home/arduino_cropped.png', 'duration': '6 months', 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla.'},
+                    {'course': 'Raspberry Pi', 'level': 'advanced' ,'id': 2, 'img': 'assets/img/home/RPi_cropped.png', 'duration': '6 months', 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla.'}
                    ];
 
 export const courses = {
@@ -37,12 +37,9 @@ export const teachers = {
   h1: 'MEET THE PROFESSIONALS',
   description: 'Etiam dolor tortor, egestas a libero eget, sollicitudin maximus nulla. Nunc vitae maximus ipsum. Vestibulum sodales nisi massa, vitae blandit massa luctus id.',
   teachers: [
-    {teacher: 'Tim Blackwater', id: 0, img: 'assets/img-temp/team1.jpg', socials: [{link: '#', type: 'facebook'}], position: 'Artist, Sculptor', introduction: 'Mauris sodales tellus vel felis dapibus, sit amet porta nibh egestas. Sed dignissim tellus quis sapien sagittis cursus. Cras porttitor auctor sapien, eu tempus nunc.'},
-    {teacher: 'Tim Blackwater', id: 0, img: 'assets/img-temp/team1.jpg', socials: [{link: '#', type: 'facebook'}], position: 'Artist, Sculptor', introduction: 'Mauris sodales tellus vel felis dapibus, sit amet porta nibh egestas. Sed dignissim tellus quis sapien sagittis cursus. Cras porttitor auctor sapien, eu tempus nunc.'},
-    {teacher: 'Tim Blackwater', id: 0, img: 'assets/img-temp/team1.jpg', socials: [{link: '#', type: 'facebook'}], position: 'Artist, Sculptor', introduction: 'Mauris sodales tellus vel felis dapibus, sit amet porta nibh egestas. Sed dignissim tellus quis sapien sagittis cursus. Cras porttitor auctor sapien, eu tempus nunc.'},
-    {teacher: 'Tim Blackwater', id: 0, img: 'assets/img-temp/team1.jpg', socials: [{link: '#', type: 'facebook'}], position: 'Artist, Sculptor', introduction: 'Mauris sodales tellus vel felis dapibus, sit amet porta nibh egestas. Sed dignissim tellus quis sapien sagittis cursus. Cras porttitor auctor sapien, eu tempus nunc.'},
-    {teacher: 'Tim Blackwater', id: 0, img: 'assets/img-temp/team1.jpg', socials: [{link: '#', type: 'facebook'}], position: 'Artist, Sculptor', introduction: 'Mauris sodales tellus vel felis dapibus, sit amet porta nibh egestas. Sed dignissim tellus quis sapien sagittis cursus. Cras porttitor auctor sapien, eu tempus nunc.'}
-
+    {teacher: 'Alan Chen', id: 0, img: 'assets/img/home/Teacher_ALan.jpg', socials: [{link: '#', type: 'facebook'}], position: 'Artist, Sculptor', introduction: 'Mauris sodales tellus vel felis dapibus, sit amet porta nibh egestas. Sed dignissim tellus quis sapien sagittis cursus. Cras porttitor auctor sapien, eu tempus nunc.'},
+    {teacher: 'Lethic Zhang', id: 0, img: 'assets/img/home/Teacher_Lethic.jpg', socials: [{link: '#', type: 'facebook'}], position: 'Artist, Sculptor', introduction: 'Mauris sodales tellus vel felis dapibus, sit amet porta nibh egestas. Sed dignissim tellus quis sapien sagittis cursus. Cras porttitor auctor sapien, eu tempus nunc.'},
+    {teacher: 'Tim Blackwater', id: 0, img: 'assets/img/home/Teacher_Tim.jpg', socials: [{link: '#', type: 'facebook'}], position: 'Artist, Sculptor', introduction: 'Mauris sodales tellus vel felis dapibus, sit amet porta nibh egestas. Sed dignissim tellus quis sapien sagittis cursus. Cras porttitor auctor sapien, eu tempus nunc.'},
   ]
 };
 
@@ -60,10 +57,10 @@ export const ourNumbers = {
 	h1: 'We work hard',
 	description: 'Etiam dolor tortor, egestas a libero eget, sollicitudin maximus nulla. Nunc vitae maximus ipsum. Vestibulum sodales nisi massa, vitae blandit massa luctus id.',
 	advantages: [
-		{counter: 70, h4: 'Courses in our school', details: 'Sed feugiat porttitor nunc Etiam gravida ex justo ac rhoncus purus tristique ut, egestas a libero eget, sollicitudin maximus nulla. Nunc vitae maximus ipsum.'},
-		{counter: 71, h4: 'Courses in our school', details: 'Sed feugiat porttitor nunc Etiam gravida ex justo ac rhoncus purus tristique ut, egestas a libero eget, sollicitudin maximus nulla. Nunc vitae maximus ipsum.'},
-		{counter: 72, h4: 'Courses in our school', details: 'Sed feugiat porttitor nunc Etiam gravida ex justo ac rhoncus purus tristique ut, egestas a libero eget, sollicitudin maximus nulla. Nunc vitae maximus ipsum.'},
-		{counter: 73, h4: 'Courses in our school', details: 'Sed feugiat porttitor nunc Etiam gravida ex justo ac rhoncus purus tristique ut, egestas a libero eget, sollicitudin maximus nulla. Nunc vitae maximus ipsum.'}
+		{counter: 3, h4: 'Course series in our school', details: 'Sed feugiat porttitor nunc Etiam gravida ex justo ac rhoncus purus tristique ut, egestas a libero eget, sollicitudin maximus nulla. Nunc vitae maximus ipsum.'},
+		{counter: 8, h4: 'Professional teachers', details: 'Sed feugiat porttitor nunc Etiam gravida ex justo ac rhoncus purus tristique ut, egestas a libero eget, sollicitudin maximus nulla. Nunc vitae maximus ipsum.'},
+		{counter: 68, h4: 'Happy students', details: 'Sed feugiat porttitor nunc Etiam gravida ex justo ac rhoncus purus tristique ut, egestas a libero eget, sollicitudin maximus nulla. Nunc vitae maximus ipsum.'},
+		{counter: 57, h4: 'Different courses', details: 'Sed feugiat porttitor nunc Etiam gravida ex justo ac rhoncus purus tristique ut, egestas a libero eget, sollicitudin maximus nulla. Nunc vitae maximus ipsum.'}
 	]
 };
 
@@ -120,7 +117,7 @@ export const contact = {
 };
 
 export const footer = {
-	logo: 'assets/img/logo.png',
+	logo: 'assets/img/logo-foot.png',
 	description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae est lorem. Aenean imperdiet nisi a dolor condimentum, id ullamcorper lacus vestibulum.',
 	socials: [
 		{link: '#', type: 'facebook'},
