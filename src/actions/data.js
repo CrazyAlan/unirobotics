@@ -45,12 +45,12 @@ export const teachers = {
 };
 
 export const about = {
-	title: 'About Us',
-	h1: 'QUALITY RESULTS WITH US',
+	title: 'About us',
+	h1: 'WHAT DO WE DO',
 	description: 'Etiam dolor tortor, egestas a libero eget, sollicitudin maximus nulla. Nunc vitae maximus ipsum. Vestibulum sodales nisi massa, vitae blandit massa luctus id.',
-	videoLink: 'https://player.vimeo.com/video/20924263?color=ffffff&title=0&byline=0&portrait=0',
-	videoCaption: 'View our promo',
-	img: 'assets/img-temp/quality.jpg'
+	videoLink: 'https://www.youtube.com/embed/8fsbEctnwnw',
+	videoCaption: 'About LEGO Education',
+	img: 'assets/img/home/aboutus.jpg'
 };
 
 export const ourNumbers = {

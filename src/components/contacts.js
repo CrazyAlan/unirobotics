@@ -18,8 +18,6 @@ class ContactPage extends Component {
 		return (
 			<div> 
 				<Header />
-	    		<About />
-	    		<Partners />
 	    		<Contact />
 	    		<Footer />
 			</div>
