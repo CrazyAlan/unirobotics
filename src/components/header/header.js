@@ -24,9 +24,25 @@ class Header extends Component {
 	fetchData();
 
   }
+
+  renderCourseList(promotions){
+  	return (
+  		<ul className="dropdown-menu">
+  		{
+  			promotions.map((promotion)=>{
+  				return (
+  					<li>
+						<Link to={`/courses/${promotion.id}`}>{promotion.course}</Link>  						
+  					</li>
+  				);
+  			})
+  		}
+  		</ul>
+  	)
+  }
   
   render() {
-  	const { header, lang } = this.props;
+  	const { header, lang, promotions } = this.props;
     return (
       <nav className="header one-page-header navbar navbar-default navbar-fixed-top courses-header one-page-nav-scrolling one-page-nav__fixed" data-role="navigation">
 			<div className="container-fluid g-pr-40 g-pl-40">
@@ -48,11 +64,20 @@ class Header extends Component {
 						<ul className="nav navbar-nav">
 							{
 								header.tabs.map((tab, i) => {
-									return (
-										<li className="page-scroll home nav__text" key={i}>
-											<Link to={tab.link}>{tab.name}</Link>
-										</li>
-									)
+									if (tab.name === 'Courses') {
+										return (
+											<li className="page-scroll home nav__text dropdown" key={i}>
+												<Link to={tab.link}>{tab.name}</Link>
+												{this.renderCourseList(promotions)}
+											</li>
+											)
+									} else {
+										return (
+											<li className="page-scroll home nav__text dropdown" key={i}>
+												<Link to={tab.link}>{tab.name}</Link>
+											</li>
+										)
+									}
 								})
 							}
 							
@@ -91,7 +116,7 @@ class Header extends Component {
 }
 
 function mapStateToProps(state) {
-  return { header: state.data.all.header, lang: state.config.lang };
+  return { header: state.data.all.header, lang: state.config.lang, promotions: state.promotions.all };
 }
 
 export default connect(mapStateToProps, { updateConfig, fetchPromotions, fetchCourses, fetchTeachers, fetchData })(Header);

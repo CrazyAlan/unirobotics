@@ -33,7 +33,7 @@ class Footer extends Component {
   renderPhotos(){
   	const { pics_title, pics } = this.props.footer;
   	return(
-	  	<div className="col-md-4 col-sm-6 col-xs-8 col-xs-offset-2 col-sm-offset-0 text-left ">
+	  	<div className="col-md-4 pull-right col-sm-6 col-xs-8 col-xs-offset-2 col-sm-offset-0 text-left ">
 			<h2 className="footer__subtitle font-main">{pics_title}</h2>
 
 			<ul className="list-inline blog-photostream">
@@ -79,7 +79,7 @@ class Footer extends Component {
 								</ul>
 							</div>
 
-							{this.renderPosts()}
+							{/*this.renderPosts()*/}
 
 							{this.renderPhotos()}
 
