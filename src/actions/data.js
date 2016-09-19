@@ -20,16 +20,51 @@ export const promotions = [
 export const courses = {
                   title: 'Our courses',
                   description: 'Learn something',
-                  courses: [
-                               {'course': 'Dance 1', 'level': 'beginner', 'id': 0, 'img': 'assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
-                               {'course': 'Dance 2', 'level': 'beginner', 'id': 0, 'img': 'assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
-                               {'course': 'Dance 3', 'level': 'beginner', 'id': 0, 'img': 'assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
-                               {'course': 'Dance 4', 'level': 'beginner', 'id': 0, 'img': 'assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
-                               {'course': 'Dance 5', 'level': 'beginner', 'id': 0, 'img': 'assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
-                               {'course': 'Dance 6', 'level': 'beginner', 'id': 0, 'img': 'assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
-                               {'course': 'Dance 7', 'level': 'beginner', 'id': 0, 'img': 'assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
-                               {'course': 'Dance 8', 'level': 'beginner', 'id': 0, 'img': 'assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6}
-                             ]
+                  types: [
+
+	                  {
+	                  	id: 0,
+	                  	abstract: 'This is the description for the lego course description',
+
+	                  	courses: [
+	                               {'course': 'Dance 1', 'level': 'beginner', 'id': 0, 'img': 'assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
+	                               {'course': 'Dance 2', 'level': 'beginner', 'id': 0, 'img': 'assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
+	                               {'course': 'Dance 3', 'level': 'beginner', 'id': 0, 'img': 'assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
+	                               {'course': 'Dance 4', 'level': 'beginner', 'id': 0, 'img': 'assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
+	                               {'course': 'Dance 5', 'level': 'beginner', 'id': 0, 'img': 'assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
+	                               {'course': 'Dance 6', 'level': 'beginner', 'id': 0, 'img': 'assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
+	                               {'course': 'Dance 7', 'level': 'beginner', 'id': 0, 'img': 'assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
+	                               {'course': 'Dance 8', 'level': 'beginner', 'id': 0, 'img': 'assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6}
+	                  ]},
+
+	                  {
+	                  	id:1,
+	                  	abstract: 'This is the description for the arduino course description',
+	                  	courses: [
+	                               {'course': 'Dance 1', 'level': 'beginner', 'id': 0, 'img': 'assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
+	                               {'course': 'Dance 2', 'level': 'beginner', 'id': 0, 'img': 'assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
+	                               {'course': 'Dance 3', 'level': 'beginner', 'id': 0, 'img': 'assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
+	                               {'course': 'Dance 4', 'level': 'beginner', 'id': 0, 'img': 'assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
+	                               {'course': 'Dance 5', 'level': 'beginner', 'id': 0, 'img': 'assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
+	                               {'course': 'Dance 6', 'level': 'beginner', 'id': 0, 'img': 'assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
+	                               {'course': 'Dance 7', 'level': 'beginner', 'id': 0, 'img': 'assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
+	                               {'course': 'Dance 8', 'level': 'beginner', 'id': 0, 'img': 'assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6}
+	                  ]},
+
+	                  {
+	                  	id:2,
+	                  	abstract: 'This is the description for the raspery course description',
+	                  	courses: [
+	                               {'course': 'Dance 1', 'level': 'beginner', 'id': 0, 'img': 'assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
+	                               {'course': 'Dance 2', 'level': 'beginner', 'id': 0, 'img': 'assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
+	                               {'course': 'Dance 3', 'level': 'beginner', 'id': 0, 'img': 'assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
+	                               {'course': 'Dance 4', 'level': 'beginner', 'id': 0, 'img': 'assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
+	                               {'course': 'Dance 5', 'level': 'beginner', 'id': 0, 'img': 'assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
+	                               {'course': 'Dance 6', 'level': 'beginner', 'id': 0, 'img': 'assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
+	                               {'course': 'Dance 7', 'level': 'beginner', 'id': 0, 'img': 'assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
+	                               {'course': 'Dance 8', 'level': 'beginner', 'id': 0, 'img': 'assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6}
+	                  ]}
+	            ]
                 };
 
 export const teachers = {

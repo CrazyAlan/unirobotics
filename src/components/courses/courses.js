@@ -8,10 +8,11 @@ class Courses extends Component {
     this.props.fetchCourses();
   }
 
-  renderCourse(){
-  	if (typeof this.props.courses.courses !== undefined) {
-  		var course = this.props.courses.courses[0];
-	  	return this.props.courses.courses.map((course, i) => {
+  renderCourse(type){
+
+  	if (typeof type.courses !== undefined) {
+
+	  	return type.courses.map((course, i) => {
 	  		return (
 		  		<div className="item text-left" key={i}>
 					<div className="course-info">
@@ -43,18 +44,22 @@ class Courses extends Component {
   }
 
   render() {
+
   	if (this.props.courses !== null) {
+  		const { title, description, types } = this.props.courses;
+
   		return (
 			<section id="courses">
 				<div className="container-fluid no-padding pattern-v1">
 					<div className="content-lg g-pr-30 g-pl-30">
 						<div className="heading-v13 heading-v13--center text-center g-pt-10 g-mb-80">
-							<span className="heading-v13__block-name">{this.props.courses.title}</span>
-							<h1 className="heading-v13__title font-main">{this.props.courses.description}</h1>
+							<span className="heading-v13__block-name">{title}</span>
+							<h1 className="heading-v13__title font-main">{description}</h1>
+							<p className="heading-v13__text">{types[0].abstract}</p>
 						</div>
 
 						<div className="owl2-carousel-v2 owl-theme controls-v1">
-							{this.renderCourse()}
+							{this.renderCourse(types[0])}
 						</div>
 					</div>
 				</div>

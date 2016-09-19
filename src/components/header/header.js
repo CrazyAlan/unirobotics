@@ -66,7 +66,7 @@ class Header extends Component {
 								header.tabs.map((tab, i) => {
 									if (tab.name === 'Courses') {
 										return (
-											<li className="page-scroll home nav__text dropdown" key={i}>
+											<li className="page-scroll home nav__text dropdown " key={i}>
 												<Link to={tab.link}>{tab.name}</Link>
 												{this.renderCourseList(promotions)}
 											</li>
