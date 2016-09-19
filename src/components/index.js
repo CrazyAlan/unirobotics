@@ -2,6 +2,7 @@ import React from 'react';
 import { Component } from 'react';
 import Header  from './header/header';
 import Promotions  from './promotions/promotions';
+import About from './about/about';
 import Courses  from './courses/courses';
 import OurNumbers from './our_numbers/our_numbers';
 import Gallery from './gallery/gallery';
@@ -24,11 +25,10 @@ class Main extends Component {
     	<div>
 	    	<Header />
 	    	<Promotions />
-
-	    	<Gallery />
+            <About />
 	    	<Teachers />
-	    	<Offers />
 	        <OurNumber />	
+	    	<Gallery />
 	    	<Footer />
 	    </div>
     );
