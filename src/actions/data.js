@@ -12,9 +12,9 @@ export const header = {
 };
 
 export const promotions = [
-                    {'course': 'Lego', 'level': 'beginner','id': 0, 'img': 'assets/img/home/lego_cropped.png', 'duration': '6 months', 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla.'},
-                    {'course': 'Arduino', 'level': 'intermediate' ,'id': 1, 'img': 'assets/img/home/arduino_cropped.png', 'duration': '6 months', 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla.'},
-                    {'course': 'Raspberry Pi', 'level': 'advanced' ,'id': 2, 'img': 'assets/img/home/RPi_cropped.png', 'duration': '6 months', 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla.'}
+                    {'course': 'Lego', 'level': 'beginner','id': 0, 'img': 'assets/img/home/lego_cropped.png', 'duration': '6 months', 'description': 'Entry level robotics course with adorable LEGO Mindstorm robotics education platform'},
+                    {'course': 'Arduino', 'level': 'intermediate' ,'id': 1, 'img': 'assets/img/home/arduino_cropped.png', 'duration': '6 months', 'description': 'Intermediate level robotics course with the most popular open-source hardware platform, Arduino.'},
+                    {'course': 'Raspberry Pi', 'level': 'advanced' ,'id': 2, 'img': 'assets/img/home/RPi_cropped.png', 'duration': '6 months', 'description': 'Advanced level robotics course with powerful linux computer Raspberry Pi.'}
                    ];
 
 export const courses = {
@@ -68,21 +68,21 @@ export const courses = {
                 };
 
 export const teachers = {
-  title: 'Our teachers',
+  title: 'Our team',
   h1: 'MEET THE PROFESSIONALS',
-  description: 'Etiam dolor tortor, egestas a libero eget, sollicitudin maximus nulla. Nunc vitae maximus ipsum. Vestibulum sodales nisi massa, vitae blandit massa luctus id.',
+  description: 'Engineers and tutors with diverse background from top universities in Canada',
   teachers: [
-    {teacher: 'Alan Chen', id: 0, img: 'assets/img/home/Teacher_ALan.jpg', socials: [{link: '#', type: 'facebook'}], position: 'Artist, Sculptor', introduction: 'Mauris sodales tellus vel felis dapibus, sit amet porta nibh egestas. Sed dignissim tellus quis sapien sagittis cursus. Cras porttitor auctor sapien, eu tempus nunc.'},
-    {teacher: 'Lethic Zhang', id: 1, img: 'assets/img/home/Teacher_Lethic.jpg', socials: [{link: '#', type: 'facebook'}], position: 'Artist, Sculptor', introduction: 'Mauris sodales tellus vel felis dapibus, sit amet porta nibh egestas. Sed dignissim tellus quis sapien sagittis cursus. Cras porttitor auctor sapien, eu tempus nunc.'},
-    {teacher: 'Tim Blackwater', id: 2, img: 'assets/img/home/Teacher_Tim.jpg', socials: [{link: '#', type: 'facebook'}], position: 'Artist, Sculptor', introduction: 'Mauris sodales tellus vel felis dapibus, sit amet porta nibh egestas. Sed dignissim tellus quis sapien sagittis cursus. Cras porttitor auctor sapien, eu tempus nunc.'},
-    {teacher: 'Zicun Cong', id: 3, img: 'assets/img/home/Teacher_Zicun.jpg', socials: [{link: '#', type: 'facebook'}], position: 'Artist, Sculptor', introduction: 'Mauris sodales tellus vel felis dapibus, sit amet porta nibh egestas. Sed dignissim tellus quis sapien sagittis cursus. Cras porttitor auctor sapien, eu tempus nunc.'},
+    {teacher: 'Alan Chen', id: 0, img: 'assets/img/home/Teacher_ALan.jpg', socials: [{link: '#', type: 'facebook'}], position: 'CEO, Computing Scientist', introduction: 'Computing Science Msc. of Simon Fraser University, programmer with more than 10 years experience'},
+    {teacher: 'Lethic Zhang', id: 1, img: 'assets/img/home/Teacher_Lethic.jpg', socials: [{link: '#', type: 'facebook'}], position: 'CTO, Roboticist', introduction: 'Computing Science Msc. of Simon Fraser University, robotics researcher in Autonomy lab, SFU MBA, artist'},
+    {teacher: 'Tim Blackwater', id: 2, img: 'assets/img/home/Teacher_Tim.jpg', socials: [{link: '#', type: 'facebook'}], position: 'Tutor, Maker', introduction: 'Mechanical Engineering Meng. of Simon Fraser University, designer, maker'},
+    {teacher: 'Zicun Cong', id: 3, img: 'assets/img/home/Teacher_Zicun.jpg', socials: [{link: '#', type: 'facebook'}], position: 'Tutor, Educator', introduction: 'Education M.A. of Victoria University, teenager educator, counsultant'},
   ]
 };
 
 export const about = {
 	title: 'About us',
 	h1: 'WHAT DO WE DO',
-	description: 'Etiam dolor tortor, egestas a libero eget, sollicitudin maximus nulla. Nunc vitae maximus ipsum. Vestibulum sodales nisi massa, vitae blandit massa luctus id.',
+	description: 'We are a team of ambitious robotics professionals working on teenager robotics education in Vancouver, Canada. Our robotics courses are based on the latest, most popular platforms ranging from LEGO, Arduino to Raspberry Pi.',
 	videoLink: 'https://www.youtube.com/embed/8fsbEctnwnw',
 	videoCaption: 'About LEGO Education',
 	img: 'assets/img/home/aboutus.jpg'
@@ -91,18 +91,18 @@ export const about = {
 export const ourNumbers = {
 	title: 'Our Numbers',
 	h1: 'We work hard',
-	description: 'Etiam dolor tortor, egestas a libero eget, sollicitudin maximus nulla. Nunc vitae maximus ipsum. Vestibulum sodales nisi massa, vitae blandit massa luctus id.',
+	description: 'We are growing fast with our hard-working team members and diverse resources.',
 	advantages: [
-		{counter: 3, h4: 'Course series in our school', details: 'Sed feugiat porttitor nunc Etiam gravida ex justo ac rhoncus purus tristique ut, egestas a libero eget, sollicitudin maximus nulla. Nunc vitae maximus ipsum.'},
-		{counter: 8, h4: 'Professional teachers', details: 'Sed feugiat porttitor nunc Etiam gravida ex justo ac rhoncus purus tristique ut, egestas a libero eget, sollicitudin maximus nulla. Nunc vitae maximus ipsum.'},
-		{counter: 68, h4: 'Happy students', details: 'Sed feugiat porttitor nunc Etiam gravida ex justo ac rhoncus purus tristique ut, egestas a libero eget, sollicitudin maximus nulla. Nunc vitae maximus ipsum.'},
-		{counter: 57, h4: 'Different courses', details: 'Sed feugiat porttitor nunc Etiam gravida ex justo ac rhoncus purus tristique ut, egestas a libero eget, sollicitudin maximus nulla. Nunc vitae maximus ipsum.'}
+		{counter: 3, h4: 'Course series', details: 'We have 3 main course series including Lego, Arduino and Raspberry Pi.'},
+		{counter: 8, h4: 'Professional teachers', details: 'We have 8 professional teachers with strong robotics background from top uinversities in Canada.'},
+		{counter: 68, h4: 'Happy students', details: '68 students in total were enrolled in our courses in last semester. All of them achieved great improvement on ther robotics skills.'},
+		{counter: 57, h4: 'Courses units', details: 'We have 57 course units for students in different levels.'}
 	]
 };
 
 export const gallery = {
 	title: 'Gallery',
-	description: 'View how it looks',
+	description: 'Our works',
 	pics: [
 		{img: 'assets/img-temp/gallery1.jpg', data_title: 'custom title 1', title: 'Courses for kids', description: 'Nam ullamcorper mauris ex, ut efficitur est convallis nec'},
 		{img: 'assets/img-temp/gallery1.jpg', data_title: 'custom title 1', title: 'Courses for kids', description: 'Nam ullamcorper mauris ex, ut efficitur est convallis nec'},
