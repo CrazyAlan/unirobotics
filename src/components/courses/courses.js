@@ -52,8 +52,15 @@ class Courses extends Component {
 
   	if (this.props.courses !== null) {
   		const { courses } = this.props;
-  		const { courseID } = this.context.location.query;
+  		var { courseID } = this.context.location.query;
+
+  		if (courseID === undefined) {
+  			courseID = 0;
+  		};
+  		
   		const courseCatalog = courses[courseID];
+
+  		console.log(courseCatalog);
 
   		return (
 			<section id="courses">
