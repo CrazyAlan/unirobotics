@@ -27,14 +27,10 @@ export const courses = {
 	                  	abstract: 'This is the description for the lego course description',
 
 	                  	courses: [
-	                               {'course': 'Dance 1', 'level': 'beginner', 'id': 0, 'img': 'assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
-	                               {'course': 'Dance 2', 'level': 'beginner', 'id': 0, 'img': 'assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
-	                               {'course': 'Dance 3', 'level': 'beginner', 'id': 0, 'img': 'assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
-	                               {'course': 'Dance 4', 'level': 'beginner', 'id': 0, 'img': 'assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
-	                               {'course': 'Dance 5', 'level': 'beginner', 'id': 0, 'img': 'assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
-	                               {'course': 'Dance 6', 'level': 'beginner', 'id': 0, 'img': 'assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
-	                               {'course': 'Dance 7', 'level': 'beginner', 'id': 0, 'img': 'assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
-	                               {'course': 'Dance 8', 'level': 'beginner', 'id': 0, 'img': 'assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6}
+	                               {'course': 'Lego 1: Basic movement and sensors', 'level': 'Lego', 'id': 0, 'img': 'assets/img/home/logo.png', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 1.5},
+	                               {'course': 'Lego 2: More sensors and logic decisions', 'level': 'Lego', 'id': 0, 'img': 'assets/img/home/aboutus.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 1.5},
+	                               {'course': 'Lego 3: Control theory', 'level': 'Lego', 'id': 0, 'img': 'assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 1.5},
+	                               {'course': 'Lego 4: Grand project', 'level': 'Lego', 'id': 0, 'img': 'assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 1.5},
 	                  ]},
 
 	                  {
