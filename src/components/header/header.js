@@ -29,9 +29,9 @@ class Header extends Component {
   	return (
   		<ul className="dropdown-menu">
   		{
-  			promotions.map((promotion)=>{
+  			promotions.map((promotion, i)=>{
   				return (
-  					<li>
+  					<li key={i}>
 						<Link to={`/courses/?courseID=${promotion.id}`}>{promotion.course}</Link>  						
   					</li>
   				);
