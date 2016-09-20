@@ -31,7 +31,7 @@ class Courses extends Component {
 
 						<div className="course-info__bott g-padding-30">
 							<p className="course-info__price g-mb-40">
-							<span className="course-info__price--big">From <strong>${course.price}</strong></span> per course
+							<span className="course-info__price--big"> <strong>${course.price}</strong></span>
 							</p>
 							<p className="course-info__text g-mb-25">{course.description}</p>
 							<span className="course-info__dur g-mb-20 g-dp-block">

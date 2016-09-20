@@ -21,27 +21,27 @@ export const courses = [
 
 	                  {
 	                  	title: 'Lego',
-                  		description: 'Learn something',
+                  		description: 'START FROM HERE',
 	                  	id: 0,
-	                  	abstract: 'This is the description for the lego course description',
+	                  	abstract: 'Entry level robotics course with adorable LEGO Mindstorm robotics education platform',
 
 	                  	courses: [
-	                               {'course': 'Lego 1: Basic movement and sensors', 'level': 'Lego', 'id': 0, 'img': '/assets/img/home/lego/level1.jpg', 'price': 300, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 1.5},
-	                               {'course': 'Lego 2: More sensors and logic decisions', 'level': 'Lego', 'id': 0, 'img': '/assets/img/home/lego/level2.png', 'price': 350, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 1.5},
-	                               {'course': 'Lego 3: Control theory', 'level': 'Lego', 'id': 0, 'img': '/assets/img/home/lego/level3.jpg', 'price': 400, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 1.5},
-	                               {'course': 'Lego 4: Grand project', 'level': 'Lego', 'id': 0, 'img': '/assets/img/home/lego/level4.png', 'price': 450, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 1.5},
+	                               {'course': 'Lego 1: Basic movement and sensors', 'level': 'Lego', 'id': 0, 'img': '/assets/img/lego/level1.jpg', 'price': 300, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 1.5},
+	                               {'course': 'Lego 2: More sensors and logic decisions', 'level': 'Lego', 'id': 0, 'img': '/assets/img/lego/level2.png', 'price': 350, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 1.5},
+	                               {'course': 'Lego 3: Control theory', 'level': 'Lego', 'id': 0, 'img': '/assets/img/lego/level3.jpg', 'price': 400, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 1.5},
+	                               {'course': 'Lego 4: Grand project', 'level': 'Lego', 'id': 0, 'img': '/assets/img/lego/level4.png', 'price': 450, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 1.5},
 	                  ]},
 
 	                  {
 	                  	title: 'Arduino',
-                  		description: 'Learn something',
+                  		description: 'LEARN SOMETHING NEW',
 	                  	id:1,
-	                  	abstract: 'This is the description for the arduino course description',
+	                  	abstract: 'Intermediate level robotics course with the most popular open-source hardware platform, Arduino.',
 	                  	courses: [
-	                               {'course': 'Arduino 1', 'level': 'Arduino', 'id': 0, 'img': '/assets/img/home/arduino/level1.jpg', 'price': 350, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 2},
-	                               {'course': 'Arduino 2', 'level': 'Arduino', 'id': 0, 'img': '/assets/img-temp/arduino/level2.jpg', 'price': 400, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 2},
-	                               {'course': 'Arduino 3', 'level': 'Arduino', 'id': 0, 'img': '/assets/img-temp/arduino/level3.jpg', 'price': 450, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 2},
-	                               {'course': 'Arduino 4', 'level': 'Arduino', 'id': 0, 'img': '/assets/img-temp/arduino/level4.jpg', 'price': 500, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 2},
+	                               {'course': 'Arduino 1', 'level': 'Arduino', 'id': 0, 'img': '/assets/img/arduino/level1.jpg', 'price': 350, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 2},
+	                               {'course': 'Arduino 2', 'level': 'Arduino', 'id': 0, 'img': '/assets/img/arduino/level2.jpg', 'price': 400, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 2},
+	                               {'course': 'Arduino 3', 'level': 'Arduino', 'id': 0, 'img': '/assets/img/arduino/level3.jpg', 'price': 450, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 2},
+	                               {'course': 'Arduino 4', 'level': 'Arduino', 'id': 0, 'img': '/assets/img/arduino/level4.jpg', 'price': 500, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 2},
 	                  ]},
 
 	                  {
