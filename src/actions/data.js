@@ -26,10 +26,10 @@ export const courses = [
 	                  	abstract: 'This is the description for the lego course description',
 
 	                  	courses: [
-	                               {'course': 'Lego 1: Basic movement and sensors', 'level': 'Lego', 'id': 0, 'img': '/assets/img/home/logo.png', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 1.5},
-	                               {'course': 'Lego 2: More sensors and logic decisions', 'level': 'Lego', 'id': 0, 'img': '/assets/img/home/aboutus.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 1.5},
-	                               {'course': 'Lego 3: Control theory', 'level': 'Lego', 'id': 0, 'img': '/assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 1.5},
-	                               {'course': 'Lego 4: Grand project', 'level': 'Lego', 'id': 0, 'img': '/assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 1.5},
+	                               {'course': 'Lego 1: Basic movement and sensors', 'level': 'Lego', 'id': 0, 'img': '/assets/img/home/lego/level1.jpg', 'price': 300, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 1.5},
+	                               {'course': 'Lego 2: More sensors and logic decisions', 'level': 'Lego', 'id': 0, 'img': '/assets/img/home/lego/level2.png', 'price': 350, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 1.5},
+	                               {'course': 'Lego 3: Control theory', 'level': 'Lego', 'id': 0, 'img': '/assets/img/home/lego/level3.jpg', 'price': 400, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 1.5},
+	                               {'course': 'Lego 4: Grand project', 'level': 'Lego', 'id': 0, 'img': '/assets/img/home/lego/level4.png', 'price': 450, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 1.5},
 	                  ]},
 
 	                  {
@@ -38,14 +38,10 @@ export const courses = [
 	                  	id:1,
 	                  	abstract: 'This is the description for the arduino course description',
 	                  	courses: [
-	                               {'course': 'Dance 1', 'level': 'beginner', 'id': 0, 'img': '/assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
-	                               {'course': 'Dance 2', 'level': 'beginner', 'id': 0, 'img': '/assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
-	                               {'course': 'Dance 3', 'level': 'beginner', 'id': 0, 'img': '/assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
-	                               {'course': 'Dance 4', 'level': 'beginner', 'id': 0, 'img': '/assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
-	                               {'course': 'Dance 5', 'level': 'beginner', 'id': 0, 'img': '/assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
-	                               {'course': 'Dance 6', 'level': 'beginner', 'id': 0, 'img': '/assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
-	                               {'course': 'Dance 7', 'level': 'beginner', 'id': 0, 'img': '/assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
-	                               {'course': 'Dance 8', 'level': 'beginner', 'id': 0, 'img': '/assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6}
+	                               {'course': 'Arduino 1', 'level': 'Arduino', 'id': 0, 'img': '/assets/img/home/arduino/level1.jpg', 'price': 350, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 2},
+	                               {'course': 'Arduino 2', 'level': 'Arduino', 'id': 0, 'img': '/assets/img-temp/arduino/level2.jpg', 'price': 400, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 2},
+	                               {'course': 'Arduino 3', 'level': 'Arduino', 'id': 0, 'img': '/assets/img-temp/arduino/level3.jpg', 'price': 450, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 2},
+	                               {'course': 'Arduino 4', 'level': 'Arduino', 'id': 0, 'img': '/assets/img-temp/arduino/level4.jpg', 'price': 500, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 2},
 	                  ]},
 
 	                  {
