@@ -1,9 +1,13 @@
-import React, { Component } from 'react';
+import React, { Component, PropTypes } from 'react';
 import { connect } from 'react-redux';
 import { fetchCourses } from '../../actions/index';
 import { Link } from 'react-router';
 
 class Courses extends Component {
+  static contextTypes = {
+    router: PropTypes.object
+  };
+
   componentWillMount() {
     this.props.fetchCourses();
   }
@@ -47,7 +51,7 @@ class Courses extends Component {
 
   	if (this.props.courses !== null) {
   		const { title, description, types } = this.props.courses;
-
+  		console.log('course id', this.context);
   		return (
 			<section id="courses">
 				<div className="container-fluid no-padding pattern-v1">

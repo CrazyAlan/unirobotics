@@ -1,5 +1,5 @@
 export const header = {
-	logo: 'assets/img/logo.png',
+	logo: '/assets/img/logo.png',
 	tabs: [
 		{name: 'Home', link: '/'},
 		{name: 'Courses', link: '/courses'},
@@ -12,9 +12,9 @@ export const header = {
 };
 
 export const promotions = [
-                    {'course': 'Lego', 'level': 'beginner','id': 0, 'img': 'assets/img/home/lego_cropped.png', 'duration': '6 months', 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla.'},
-                    {'course': 'Arduino', 'level': 'intermediate' ,'id': 1, 'img': 'assets/img/home/arduino_cropped.png', 'duration': '6 months', 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla.'},
-                    {'course': 'Raspberry Pi', 'level': 'advanced' ,'id': 2, 'img': 'assets/img/home/RPi_cropped.png', 'duration': '6 months', 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla.'}
+                    {'course': 'Lego', 'level': 'beginner','id': 0, 'img': '/assets/img/home/lego_cropped.png', 'duration': '6 months', 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla.'},
+                    {'course': 'Arduino', 'level': 'intermediate' ,'id': 1, 'img': '/assets/img/home/arduino_cropped.png', 'duration': '6 months', 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla.'},
+                    {'course': 'Raspberry Pi', 'level': 'advanced' ,'id': 2, 'img': '/assets/img/home/RPi_cropped.png', 'duration': '6 months', 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla.'}
                    ];
 
 export const courses = {
@@ -27,42 +27,42 @@ export const courses = {
 	                  	abstract: 'This is the description for the lego course description',
 
 	                  	courses: [
-	                               {'course': 'Dance 1', 'level': 'beginner', 'id': 0, 'img': 'assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
-	                               {'course': 'Dance 2', 'level': 'beginner', 'id': 0, 'img': 'assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
-	                               {'course': 'Dance 3', 'level': 'beginner', 'id': 0, 'img': 'assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
-	                               {'course': 'Dance 4', 'level': 'beginner', 'id': 0, 'img': 'assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
-	                               {'course': 'Dance 5', 'level': 'beginner', 'id': 0, 'img': 'assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
-	                               {'course': 'Dance 6', 'level': 'beginner', 'id': 0, 'img': 'assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
-	                               {'course': 'Dance 7', 'level': 'beginner', 'id': 0, 'img': 'assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
-	                               {'course': 'Dance 8', 'level': 'beginner', 'id': 0, 'img': 'assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6}
+	                               {'course': 'Dance 1', 'level': 'beginner', 'id': 0, 'img': '/assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
+	                               {'course': 'Dance 2', 'level': 'beginner', 'id': 0, 'img': '/assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
+	                               {'course': 'Dance 3', 'level': 'beginner', 'id': 0, 'img': '/assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
+	                               {'course': 'Dance 4', 'level': 'beginner', 'id': 0, 'img': '/assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
+	                               {'course': 'Dance 5', 'level': 'beginner', 'id': 0, 'img': '/assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
+	                               {'course': 'Dance 6', 'level': 'beginner', 'id': 0, 'img': '/assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
+	                               {'course': 'Dance 7', 'level': 'beginner', 'id': 0, 'img': '/assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
+	                               {'course': 'Dance 8', 'level': 'beginner', 'id': 0, 'img': '/assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6}
 	                  ]},
 
 	                  {
 	                  	id:1,
 	                  	abstract: 'This is the description for the arduino course description',
 	                  	courses: [
-	                               {'course': 'Dance 1', 'level': 'beginner', 'id': 0, 'img': 'assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
-	                               {'course': 'Dance 2', 'level': 'beginner', 'id': 0, 'img': 'assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
-	                               {'course': 'Dance 3', 'level': 'beginner', 'id': 0, 'img': 'assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
-	                               {'course': 'Dance 4', 'level': 'beginner', 'id': 0, 'img': 'assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
-	                               {'course': 'Dance 5', 'level': 'beginner', 'id': 0, 'img': 'assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
-	                               {'course': 'Dance 6', 'level': 'beginner', 'id': 0, 'img': 'assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
-	                               {'course': 'Dance 7', 'level': 'beginner', 'id': 0, 'img': 'assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
-	                               {'course': 'Dance 8', 'level': 'beginner', 'id': 0, 'img': 'assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6}
+	                               {'course': 'Dance 1', 'level': 'beginner', 'id': 0, 'img': '/assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
+	                               {'course': 'Dance 2', 'level': 'beginner', 'id': 0, 'img': '/assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
+	                               {'course': 'Dance 3', 'level': 'beginner', 'id': 0, 'img': '/assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
+	                               {'course': 'Dance 4', 'level': 'beginner', 'id': 0, 'img': '/assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
+	                               {'course': 'Dance 5', 'level': 'beginner', 'id': 0, 'img': '/assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
+	                               {'course': 'Dance 6', 'level': 'beginner', 'id': 0, 'img': '/assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
+	                               {'course': 'Dance 7', 'level': 'beginner', 'id': 0, 'img': '/assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
+	                               {'course': 'Dance 8', 'level': 'beginner', 'id': 0, 'img': '/assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6}
 	                  ]},
 
 	                  {
 	                  	id:2,
 	                  	abstract: 'This is the description for the raspery course description',
 	                  	courses: [
-	                               {'course': 'Dance 1', 'level': 'beginner', 'id': 0, 'img': 'assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
-	                               {'course': 'Dance 2', 'level': 'beginner', 'id': 0, 'img': 'assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
-	                               {'course': 'Dance 3', 'level': 'beginner', 'id': 0, 'img': 'assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
-	                               {'course': 'Dance 4', 'level': 'beginner', 'id': 0, 'img': 'assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
-	                               {'course': 'Dance 5', 'level': 'beginner', 'id': 0, 'img': 'assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
-	                               {'course': 'Dance 6', 'level': 'beginner', 'id': 0, 'img': 'assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
-	                               {'course': 'Dance 7', 'level': 'beginner', 'id': 0, 'img': 'assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
-	                               {'course': 'Dance 8', 'level': 'beginner', 'id': 0, 'img': 'assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6}
+	                               {'course': 'Dance 1', 'level': 'beginner', 'id': 0, 'img': '/assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
+	                               {'course': 'Dance 2', 'level': 'beginner', 'id': 0, 'img': '/assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
+	                               {'course': 'Dance 3', 'level': 'beginner', 'id': 0, 'img': '/assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
+	                               {'course': 'Dance 4', 'level': 'beginner', 'id': 0, 'img': '/assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
+	                               {'course': 'Dance 5', 'level': 'beginner', 'id': 0, 'img': '/assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
+	                               {'course': 'Dance 6', 'level': 'beginner', 'id': 0, 'img': '/assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
+	                               {'course': 'Dance 7', 'level': 'beginner', 'id': 0, 'img': '/assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
+	                               {'course': 'Dance 8', 'level': 'beginner', 'id': 0, 'img': '/assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6}
 	                  ]}
 	            ]
                 };
@@ -72,10 +72,10 @@ export const teachers = {
   h1: 'MEET THE PROFESSIONALS',
   description: 'Etiam dolor tortor, egestas a libero eget, sollicitudin maximus nulla. Nunc vitae maximus ipsum. Vestibulum sodales nisi massa, vitae blandit massa luctus id.',
   teachers: [
-    {teacher: 'Alan Chen', id: 0, img: 'assets/img/home/Teacher_ALan.jpg', socials: [{link: '#', type: 'facebook'}], position: 'Artist, Sculptor', introduction: 'Mauris sodales tellus vel felis dapibus, sit amet porta nibh egestas. Sed dignissim tellus quis sapien sagittis cursus. Cras porttitor auctor sapien, eu tempus nunc.'},
-    {teacher: 'Lethic Zhang', id: 1, img: 'assets/img/home/Teacher_Lethic.jpg', socials: [{link: '#', type: 'facebook'}], position: 'Artist, Sculptor', introduction: 'Mauris sodales tellus vel felis dapibus, sit amet porta nibh egestas. Sed dignissim tellus quis sapien sagittis cursus. Cras porttitor auctor sapien, eu tempus nunc.'},
-    {teacher: 'Tim Blackwater', id: 2, img: 'assets/img/home/Teacher_Tim.jpg', socials: [{link: '#', type: 'facebook'}], position: 'Artist, Sculptor', introduction: 'Mauris sodales tellus vel felis dapibus, sit amet porta nibh egestas. Sed dignissim tellus quis sapien sagittis cursus. Cras porttitor auctor sapien, eu tempus nunc.'},
-    {teacher: 'Zicun Cong', id: 3, img: 'assets/img/home/Teacher_Zicun.jpg', socials: [{link: '#', type: 'facebook'}], position: 'Artist, Sculptor', introduction: 'Mauris sodales tellus vel felis dapibus, sit amet porta nibh egestas. Sed dignissim tellus quis sapien sagittis cursus. Cras porttitor auctor sapien, eu tempus nunc.'},
+    {teacher: 'Alan Chen', id: 0, img: '/assets/img/home/Teacher_ALan.jpg', socials: [{link: '#', type: 'facebook'}], position: 'Artist, Sculptor', introduction: 'Mauris sodales tellus vel felis dapibus, sit amet porta nibh egestas. Sed dignissim tellus quis sapien sagittis cursus. Cras porttitor auctor sapien, eu tempus nunc.'},
+    {teacher: 'Lethic Zhang', id: 1, img: '/assets/img/home/Teacher_Lethic.jpg', socials: [{link: '#', type: 'facebook'}], position: 'Artist, Sculptor', introduction: 'Mauris sodales tellus vel felis dapibus, sit amet porta nibh egestas. Sed dignissim tellus quis sapien sagittis cursus. Cras porttitor auctor sapien, eu tempus nunc.'},
+    {teacher: 'Tim Blackwater', id: 2, img: '/assets/img/home/Teacher_Tim.jpg', socials: [{link: '#', type: 'facebook'}], position: 'Artist, Sculptor', introduction: 'Mauris sodales tellus vel felis dapibus, sit amet porta nibh egestas. Sed dignissim tellus quis sapien sagittis cursus. Cras porttitor auctor sapien, eu tempus nunc.'},
+    {teacher: 'Zicun Cong', id: 3, img: '/assets/img/home/Teacher_Zicun.jpg', socials: [{link: '#', type: 'facebook'}], position: 'Artist, Sculptor', introduction: 'Mauris sodales tellus vel felis dapibus, sit amet porta nibh egestas. Sed dignissim tellus quis sapien sagittis cursus. Cras porttitor auctor sapien, eu tempus nunc.'},
   ]
 };
 
@@ -85,7 +85,7 @@ export const about = {
 	description: 'Etiam dolor tortor, egestas a libero eget, sollicitudin maximus nulla. Nunc vitae maximus ipsum. Vestibulum sodales nisi massa, vitae blandit massa luctus id.',
 	videoLink: 'https://www.youtube.com/embed/8fsbEctnwnw',
 	videoCaption: 'About LEGO Education',
-	img: 'assets/img/home/aboutus.jpg'
+	img: '/assets/img/home/aboutus.jpg'
 };
 
 export const ourNumbers = {
@@ -104,12 +104,12 @@ export const gallery = {
 	title: 'Gallery',
 	description: 'View how it looks',
 	pics: [
-		{img: 'assets/img-temp/gallery1.jpg', data_title: 'custom title 1', title: 'Courses for kids', description: 'Nam ullamcorper mauris ex, ut efficitur est convallis nec'},
-		{img: 'assets/img-temp/gallery1.jpg', data_title: 'custom title 1', title: 'Courses for kids', description: 'Nam ullamcorper mauris ex, ut efficitur est convallis nec'},
-		{img: 'assets/img-temp/gallery1.jpg', data_title: 'custom title 1', title: 'Courses for kids', description: 'Nam ullamcorper mauris ex, ut efficitur est convallis nec'},
-		{img: 'assets/img-temp/gallery1.jpg', data_title: 'custom title 1', title: 'Courses for kids', description: 'Nam ullamcorper mauris ex, ut efficitur est convallis nec'},
-		{img: 'assets/img-temp/gallery1.jpg', data_title: 'custom title 1', title: 'Courses for kids', description: 'Nam ullamcorper mauris ex, ut efficitur est convallis nec'},
-		{img: 'assets/img-temp/gallery1.jpg', data_title: 'custom title 1', title: 'Courses for kids', description: 'Nam ullamcorper mauris ex, ut efficitur est convallis nec'}
+		{img: '/assets/img-temp/gallery1.jpg', data_title: 'custom title 1', title: 'Courses for kids', description: 'Nam ullamcorper mauris ex, ut efficitur est convallis nec'},
+		{img: '/assets/img-temp/gallery1.jpg', data_title: 'custom title 1', title: 'Courses for kids', description: 'Nam ullamcorper mauris ex, ut efficitur est convallis nec'},
+		{img: '/assets/img-temp/gallery1.jpg', data_title: 'custom title 1', title: 'Courses for kids', description: 'Nam ullamcorper mauris ex, ut efficitur est convallis nec'},
+		{img: '/assets/img-temp/gallery1.jpg', data_title: 'custom title 1', title: 'Courses for kids', description: 'Nam ullamcorper mauris ex, ut efficitur est convallis nec'},
+		{img: '/assets/img-temp/gallery1.jpg', data_title: 'custom title 1', title: 'Courses for kids', description: 'Nam ullamcorper mauris ex, ut efficitur est convallis nec'},
+		{img: '/assets/img-temp/gallery1.jpg', data_title: 'custom title 1', title: 'Courses for kids', description: 'Nam ullamcorper mauris ex, ut efficitur est convallis nec'}
 	]
 };
 
@@ -131,18 +131,18 @@ export const partners = {
 	h1: 'Who trusts us',
 	description: 'Etiam dolor tortor, egestas a libero eget, sollicitudin maximus nulla. Nunc vitae maximus ipsum. Vestibulum sodales nisi massa, vitae blandit massa luctus id.',
 	pics: [
-		{img: 'assets/img-temp/partners/img01.png', link: '#'},
-		{img: 'assets/img-temp/partners/img02.png', link: '#'},
-		{img: 'assets/img-temp/partners/img03.png', link: '#'},
-		{img: 'assets/img-temp/partners/img04.png', link: '#'},
-		{img: 'assets/img-temp/partners/img05.png', link: '#'},
-		{img: 'assets/img-temp/partners/img06.png', link: '#'},
-		{img: 'assets/img-temp/partners/img07.png', link: '#'},
-		{img: 'assets/img-temp/partners/img08.png', link: '#'},
-		{img: 'assets/img-temp/partners/img09.png', link: '#'},
-		{img: 'assets/img-temp/partners/img10.png', link: '#'},
-		{img: 'assets/img-temp/partners/img11.png', link: '#'},
-		{img: 'assets/img-temp/partners/img12.png', link: '#'}
+		{img: '/assets/img-temp/partners/img01.png', link: '#'},
+		{img: '/assets/img-temp/partners/img02.png', link: '#'},
+		{img: '/assets/img-temp/partners/img03.png', link: '#'},
+		{img: '/assets/img-temp/partners/img04.png', link: '#'},
+		{img: '/assets/img-temp/partners/img05.png', link: '#'},
+		{img: '/assets/img-temp/partners/img06.png', link: '#'},
+		{img: '/assets/img-temp/partners/img07.png', link: '#'},
+		{img: '/assets/img-temp/partners/img08.png', link: '#'},
+		{img: '/assets/img-temp/partners/img09.png', link: '#'},
+		{img: '/assets/img-temp/partners/img10.png', link: '#'},
+		{img: '/assets/img-temp/partners/img11.png', link: '#'},
+		{img: '/assets/img-temp/partners/img12.png', link: '#'}
 	]
 };
 
@@ -153,7 +153,7 @@ export const contact = {
 };
 
 export const footer = {
-	logo: 'assets/img/logo-foot.png',
+	logo: '/assets/img/logo-foot.png',
 	description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae est lorem. Aenean imperdiet nisi a dolor condimentum, id ullamcorper lacus vestibulum.',
 	socials: [
 		{link: '#', type: 'facebook'},
@@ -163,17 +163,17 @@ export const footer = {
 
 	h2: 'Latest Posts',
 	latest_posts: [
-		{img: 'assets/img-temp/post-footer1.jpg', date: 'April 27, 2015', link: '#', title: 'Mauris tellus magna, pretium a feugiat'},
-		{img: 'assets/img-temp/post-footer1.jpg', date: 'April 27, 2015', link: '#', title: 'Mauris tellus magna, pretium a feugiat'}		
+		{img: '/assets/img-temp/post-footer1.jpg', date: 'April 27, 2015', link: '#', title: 'Mauris tellus magna, pretium a feugiat'},
+		{img: '/assets/img-temp/post-footer1.jpg', date: 'April 27, 2015', link: '#', title: 'Mauris tellus magna, pretium a feugiat'}		
 	],
 	pics_title: 'Some photos',
 	pics: [
-		{thumbnails: 'assets/img-temp/gallery1.jpg', img: 'assets/img-temp/footer__gallery1.jpg', title: 'Image 1'},
-		{thumbnails: 'assets/img-temp/gallery1.jpg', img: 'assets/img-temp/footer__gallery2.jpg', title: 'Image 2'},
-		{thumbnails: 'assets/img-temp/gallery1.jpg', img: 'assets/img-temp/footer__gallery3.jpg', title: 'Image 3'},
-		{thumbnails: 'assets/img-temp/gallery1.jpg', img: 'assets/img-temp/footer__gallery4.jpg', title: 'Image 4'},
-		{thumbnails: 'assets/img-temp/gallery1.jpg', img: 'assets/img-temp/footer__gallery5.jpg', title: 'Image 5'},
-		{thumbnails: 'assets/img-temp/gallery1.jpg', img: 'assets/img-temp/footer__gallery6.jpg', title: 'Image 6'},
+		{thumbnails: '/assets/img-temp/gallery1.jpg', img: '/assets/img-temp/footer__gallery1.jpg', title: 'Image 1'},
+		{thumbnails: '/assets/img-temp/gallery1.jpg', img: '/assets/img-temp/footer__gallery2.jpg', title: 'Image 2'},
+		{thumbnails: '/assets/img-temp/gallery1.jpg', img: '/assets/img-temp/footer__gallery3.jpg', title: 'Image 3'},
+		{thumbnails: '/assets/img-temp/gallery1.jpg', img: '/assets/img-temp/footer__gallery4.jpg', title: 'Image 4'},
+		{thumbnails: '/assets/img-temp/gallery1.jpg', img: '/assets/img-temp/footer__gallery5.jpg', title: 'Image 5'},
+		{thumbnails: '/assets/img-temp/gallery1.jpg', img: '/assets/img-temp/footer__gallery6.jpg', title: 'Image 6'},
 	]
 };
 

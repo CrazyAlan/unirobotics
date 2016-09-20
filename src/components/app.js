@@ -5,7 +5,7 @@ import loadJS from 'load-js';
 export default class App extends Component {
   componentDidUpdate() {
 
-	loadJS("../../assets/js/plugins/cube-portfolio.js")
+	loadJS("/assets/js/plugins/cube-portfolio.js")
     .then(function() {
       window.App.init();
 		window.App.initCounter();
@@ -15,20 +15,18 @@ export default class App extends Component {
 		window.Owl2Carouselv4.initOwl2Carouselv4();
 		window.Owl2Carouselv5.initOwl2Carouselv5();
 		window.ContactForm.initContactForm();
-    loadJS("../../assetsUp/js/lethic.js")
+    loadJS("/assetsUp/js/lethic.js")
     .then(()=> {
-      console.log("load lethic")
     })
 
 		window.initMap();
     });
 
-    console.log('componentDidUpdate');
 
   }
 
   componentDidMount() {
-  	loadJS("../../assets/js/plugins/cube-portfolio.js")
+  	loadJS("/assets/js/plugins/cube-portfolio.js")
     .then(function() {
       window.App.init();
 		window.App.initCounter();
@@ -38,18 +36,16 @@ export default class App extends Component {
 		window.Owl2Carouselv4.initOwl2Carouselv4();
 		window.Owl2Carouselv5.initOwl2Carouselv5();
 		window.ContactForm.initContactForm();
-    loadJS("../../assetsUp/js/lethic.js")
+    loadJS("/assetsUp/js/lethic.js")
     .then(()=> {
-      console.log("load lethic")
     })
 
     });
 
-
-    console.log(' componentDidMount');
   }
 
   render() {
+    console.log(this.props.children);
     return (
       <div>
         {this.props.children}
