@@ -17,12 +17,11 @@ export const promotions = [
                     {'course': 'Raspberry Pi', 'level': 'advanced' ,'id': 2, 'img': '/assets/img/home/RPi_cropped.png', 'duration': '6 months', 'description': 'Advanced level robotics course with powerful linux computer Raspberry Pi.'}
                    ];
 
-export const courses = {
-                  title: 'Our courses',
-                  description: 'Learn something',
-                  types: [
+export const courses = [
 
 	                  {
+	                  	title: 'Lego',
+                  		description: 'Learn something',
 	                  	id: 0,
 	                  	abstract: 'This is the description for the lego course description',
 
@@ -34,6 +33,8 @@ export const courses = {
 	                  ]},
 
 	                  {
+	                  	title: 'Arduino',
+                  		description: 'Learn something',
 	                  	id:1,
 	                  	abstract: 'This is the description for the arduino course description',
 	                  	courses: [
@@ -48,6 +49,8 @@ export const courses = {
 	                  ]},
 
 	                  {
+	                  	title: 'Raspberry',
+                  		description: 'Learn something',
 	                  	id:2,
 	                  	abstract: 'This is the description for the raspery course description',
 	                  	courses: [
@@ -60,8 +63,7 @@ export const courses = {
 	                               {'course': 'Dance 7', 'level': 'beginner', 'id': 0, 'img': '/assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
 	                               {'course': 'Dance 8', 'level': 'beginner', 'id': 0, 'img': '/assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6}
 	                  ]}
-	            ]
-                };
+	            ];
 
 export const teachers = {
   title: 'Our team',

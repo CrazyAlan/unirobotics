@@ -13,11 +13,11 @@ class Courses extends Component {
     this.props.fetchCourses();
   }
 
-  renderCourse(type){
+  renderCourse(courseCatalog){
 
-  	if (typeof type.courses !== undefined) {
+  	if (typeof courseCatalog !== undefined) {
 
-	  	return type.courses.map((course, i) => {
+	  	return courseCatalog.courses.map((course, i) => {
 	  		return (
 		  		<div className="item text-left" key={i}>
 					<div className="course-info">
@@ -51,21 +51,22 @@ class Courses extends Component {
   render() {
 
   	if (this.props.courses !== null) {
-  		const { title, description, types } = this.props.courses;
+  		const { courses } = this.props;
   		const { courseID } = this.context.location.query;
+  		const courseCatalog = courses[courseID];
 
   		return (
 			<section id="courses">
 				<div className="container-fluid no-padding pattern-v1">
 					<div className="content-lg g-pr-30 g-pl-30">
 						<div className="heading-v13 heading-v13--center text-center g-pt-10 g-mb-80">
-							<span className="heading-v13__block-name">{title}</span>
-							<h1 className="heading-v13__title font-main">{description}</h1>
-							<p className="heading-v13__text">{types[courseID].abstract}</p>
+							<span className="heading-v13__block-name">{courseCatalog.title}</span>
+							<h1 className="heading-v13__title font-main">{courseCatalog.description}</h1>
+							<p className="heading-v13__text">{courseCatalog.abstract}</p>
 						</div>
 
 						<div className="owl2-carousel-v2 owl-theme controls-v1">
-							{this.renderCourse(types[courseID])}
+							{this.renderCourse(courseCatalog)}
 						</div>
 					</div>
 				</div>
