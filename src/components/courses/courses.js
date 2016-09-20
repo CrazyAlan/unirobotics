@@ -5,7 +5,8 @@ import { Link } from 'react-router';
 
 class Courses extends Component {
   static contextTypes = {
-    router: PropTypes.object
+    router: PropTypes.object,
+    location: PropTypes.object
   };
 
   componentWillMount() {
@@ -51,7 +52,8 @@ class Courses extends Component {
 
   	if (this.props.courses !== null) {
   		const { title, description, types } = this.props.courses;
-  		console.log('course id', this.context);
+  		const { courseID } = this.context.location.query;
+
   		return (
 			<section id="courses">
 				<div className="container-fluid no-padding pattern-v1">
@@ -59,11 +61,11 @@ class Courses extends Component {
 						<div className="heading-v13 heading-v13--center text-center g-pt-10 g-mb-80">
 							<span className="heading-v13__block-name">{title}</span>
 							<h1 className="heading-v13__title font-main">{description}</h1>
-							<p className="heading-v13__text">{types[0].abstract}</p>
+							<p className="heading-v13__text">{types[courseID].abstract}</p>
 						</div>
 
 						<div className="owl2-carousel-v2 owl-theme controls-v1">
-							{this.renderCourse(types[0])}
+							{this.renderCourse(types[courseID])}
 						</div>
 					</div>
 				</div>
