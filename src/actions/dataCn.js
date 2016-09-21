@@ -1,82 +1,104 @@
 export const header = {
-	logo: 'assets/img/logo.png',
+	logo: '/assets/img/logo.png',
 	tabs: [
-		{name: '主页', link: '/'},
-		{name: '课程', link: '/courses'},
-		{name: '联系', link: '/contacts'}
+		{name: 'Home', link: '/'},
+		{name: 'Courses', link: '/courses'},
+		{name: 'Contacts', link: '/contacts'}
 	],
 	socials: [
-		{link: '#', name: 'facebook'},
-		{link: '#', name: 'twitter'}	
+		{link: '#', name: 'weixin'}
 	]
 };
 
 export const promotions = [
-                    {'course': '乐高机器人', 'level': '初级','id': 0, 'img': 'assets/img/mine/lego.jpg', 'duration': '6 months', 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla.'},
-                    {'course': '乐高机器人', 'level': '中级' ,'id': 1, 'img': 'assets/img/mine/lego.jpg', 'duration': '6 months', 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla.'},
-                    {'course': '乐高机器人', 'level': '高级' ,'id': 2, 'img': 'assets/img/mine/lego.jpg', 'duration': '6 months', 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla.'}
+                    {'course': 'Lego', 'level': 'beginner','id': 0, 'img': '/assets/img/home/lego_cropped.png', 'duration': '6 months', 'description': 'Entry level robotics course with adorable LEGO Mindstorm robotics education platform'},
+                    {'course': 'Arduino', 'level': 'intermediate' ,'id': 1, 'img': '/assets/img/home/arduino_cropped.png', 'duration': '6 months', 'description': 'Intermediate level robotics course with the most popular open-source hardware platform, Arduino.'},
+                    {'course': 'Raspberry Pi', 'level': 'advanced' ,'id': 2, 'img': '/assets/img/home/RPi_cropped.png', 'duration': '6 months', 'description': 'Advanced level robotics course with powerful linux computer Raspberry Pi.'}
                    ];
 
-export const courses = {
-                  title: 'Our courses',
-                  description: 'Learn something',
-                  courses: [
-                               {'course': '舞蹈 1', 'level': 'beginner', 'id': 0, 'img': 'assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
-                               {'course': '舞蹈 2', 'level': 'beginner', 'id': 0, 'img': 'assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
-                               {'course': '舞蹈 3', 'level': 'beginner', 'id': 0, 'img': 'assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
-                               {'course': '舞蹈 4', 'level': 'beginner', 'id': 0, 'img': 'assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
-                               {'course': '舞蹈 5', 'level': 'beginner', 'id': 0, 'img': 'assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
-                               {'course': '舞蹈 6', 'level': 'beginner', 'id': 0, 'img': 'assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
-                               {'course': '舞蹈 7', 'level': 'beginner', 'id': 0, 'img': 'assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
-                               {'course': '舞蹈 8', 'level': 'beginner', 'id': 0, 'img': 'assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6}
-                             ]
-                };
+export const courses = [
+
+	                  {
+	                  	title: 'START FROM HERE',
+                  		description: 'LEGO',
+	                  	id: 0,
+	                  	abstract: 'Entry level robotics course with adorable LEGO Mindstorm robotics education platform',
+
+	                  	courses: [
+	                               {'course': 'Lego 1: Basic movement and sensors', 'level': 'Lego', 'id': 0, 'img': '/assets/img/lego/level1.jpg', 'price': 300, 'description': 'This section includes an introduction to the Lego Mindstorm. The students will learn about basic modules and sensors. It is for students with no background on Lego Mindstorm.', 'duration': 1.5},
+	                               {'course': 'Lego 2: More sensors and logic decisions', 'level': 'Lego', 'id': 0, 'img': '/assets/img/lego/level2.png', 'price': 350, 'description': 'This section is for students who understand basic movement and sensor use. The students will learn about more sensor and simple logic programming in this section.', 'duration': 1.5},
+	                               {'course': 'Lego 3: Control theory', 'level': 'Lego', 'id': 0, 'img': '/assets/img/lego/level3.jpg', 'price': 400, 'description': 'This section is for students already understanding basic movement and control. The students will learn about simple control theory in this section.', 'duration': 1.5},
+	                               {'course': 'Lego 4: Grand project', 'level': 'Lego', 'id': 0, 'img': '/assets/img/lego/level4.png', 'price': 450, 'description': 'In this section, the students will build their own grand project with the help from the teachers.', 'duration': 1.5},
+	                  ]},
+
+	                  {
+	                  	title: 'LERAN SOMETHING NEW',
+                  		description: 'ARDUINO',
+	                  	id:1,
+	                  	abstract: 'Intermediate level robotics course with the most popular open-source hardware platform, Arduino.',
+	                  	courses: [
+	                               {'course': 'Arduino 1: Introduction and basic sensors', 'level': 'Arduino', 'id': 0, 'img': '/assets/img/arduino/level1.jpg', 'price': 350, 'description': 'In this section, the Arduino hardware platform and software IDE are introduced. Students will also learn about usage of basic sensors.', 'duration': 2},
+	                               {'course': 'Arduino 2: Robot arm and control', 'level': 'Arduino', 'id': 0, 'img': '/assets/img/arduino/level2.jpg', 'price': 400, 'description': 'This section is for students who understand Arduino and programming with IDE. Students will learn about servo motor and robot arm design in this section.', 'duration': 2},
+	                               {'course': 'Arduino 3: Mobile platform', 'level': 'Arduino', 'id': 0, 'img': '/assets/img/arduino/level3.jpg', 'price': 450, 'description': 'This section if for students who has a good understanding of motor control and sensors usage with Arduino. In this section, students will learn how to build a mobile platform and program for it', 'duration': 2},
+	                               {'course': 'Arduino 4: Grand project', 'level': 'Arduino', 'id': 0, 'img': '/assets/img/arduino/level4.jpg', 'price': 500, 'description': 'In this section, the students will build their own grand project with the help from the teachers', 'duration': 2},
+	                  ]},
+
+	                  {
+	                  	title: 'Challenge yourself',
+                  		description: 'Raspberry Pi',
+	                  	id:2,
+	                  	abstract: 'Use the most popular open-source Linux computer to build your powerful project',
+	                  	courses: [
+	                               {'course': 'Raspberry Pi 1', 'level': 'Raspberry Pi', 'id': 0, 'img': '/assets/img-temp/course1.jpg', 'price': 150, 'description': 'Coming soon', 'duration': 6},
+	                               {'course': 'Raspberry Pi 2', 'level': 'Raspberry Pi', 'id': 0, 'img': '/assets/img-temp/course1.jpg', 'price': 150, 'description': 'Coming soon', 'duration': 6},
+	                               {'course': 'Raspberry Pi 3', 'level': 'Raspberry Pi', 'id': 0, 'img': '/assets/img-temp/course1.jpg', 'price': 150, 'description': 'Coming soon', 'duration': 6},
+	                               {'course': 'Raspberry Pi 4', 'level': 'Raspberry Pi', 'id': 0, 'img': '/assets/img-temp/course1.jpg', 'price': 150, 'description': 'Coming soon', 'duration': 6},
+	                  ]}
+	            ];
 
 export const teachers = {
-  title: 'Our teachers',
+  title: 'Our team',
   h1: 'MEET THE PROFESSIONALS',
-  description: 'Etiam dolor tortor, egestas a libero eget, sollicitudin maximus nulla. Nunc vitae maximus ipsum. Vestibulum sodales nisi massa, vitae blandit massa luctus id.',
+  description: 'Engineers and tutors with diverse background from top universities in Canada',
   teachers: [
-    {teacher: 'Tim Blackwater', id: 0, img: 'assets/img-temp/team1.jpg', socials: [{link: '#', type: 'facebook'}], position: 'Artist, Sculptor', introduction: 'Mauris sodales tellus vel felis dapibus, sit amet porta nibh egestas. Sed dignissim tellus quis sapien sagittis cursus. Cras porttitor auctor sapien, eu tempus nunc.'},
-    {teacher: 'Tim Blackwater', id: 0, img: 'assets/img-temp/team1.jpg', socials: [{link: '#', type: 'facebook'}], position: 'Artist, Sculptor', introduction: 'Mauris sodales tellus vel felis dapibus, sit amet porta nibh egestas. Sed dignissim tellus quis sapien sagittis cursus. Cras porttitor auctor sapien, eu tempus nunc.'},
-    {teacher: 'Tim Blackwater', id: 0, img: 'assets/img-temp/team1.jpg', socials: [{link: '#', type: 'facebook'}], position: 'Artist, Sculptor', introduction: 'Mauris sodales tellus vel felis dapibus, sit amet porta nibh egestas. Sed dignissim tellus quis sapien sagittis cursus. Cras porttitor auctor sapien, eu tempus nunc.'},
-    {teacher: 'Tim Blackwater', id: 0, img: 'assets/img-temp/team1.jpg', socials: [{link: '#', type: 'facebook'}], position: 'Artist, Sculptor', introduction: 'Mauris sodales tellus vel felis dapibus, sit amet porta nibh egestas. Sed dignissim tellus quis sapien sagittis cursus. Cras porttitor auctor sapien, eu tempus nunc.'},
-    {teacher: 'Tim Blackwater', id: 0, img: 'assets/img-temp/team1.jpg', socials: [{link: '#', type: 'facebook'}], position: 'Artist, Sculptor', introduction: 'Mauris sodales tellus vel felis dapibus, sit amet porta nibh egestas. Sed dignissim tellus quis sapien sagittis cursus. Cras porttitor auctor sapien, eu tempus nunc.'}
-
+    {teacher: 'Alan Chen', id: 0, img: '/assets/img/home/Teacher_ALan.jpg', socials: [{link: '#', type: 'facebook'}], position: 'CEO, Computing Scientist', introduction: 'Computing Science Msc. of Simon Fraser University, programmer with more than 10 years experience'},
+    {teacher: 'Martin Zhang', id: 1, img: '/assets/img/home/Teacher_Martin.png', socials: [{link: '#', type: 'facebook'}], position: 'CTO, Roboticist', introduction: 'Computing Science Msc. of Simon Fraser University, robotics researcher in Autonomy lab, SFU MBA, artist'},
+    {teacher: 'Tim Blackwater', id: 2, img: '/assets/img/home/Teacher_Tim.jpg', socials: [{link: '#', type: 'facebook'}], position: 'Tutor, Maker', introduction: 'Mechanical Engineering Meng. of University of British Columbia, designer, maker'},
+    {teacher: 'Zicun Cong', id: 3, img: '/assets/img/home/Teacher_Zicun.jpg', socials: [{link: '#', type: 'facebook'}], position: 'Tutor, Educator', introduction: 'Education M.A. of Victoria University, teenager educator, counsultant'},
   ]
 };
 
 export const about = {
-	title: 'About Us',
-	h1: 'QUALITY RESULTS WITH US',
-	description: 'Etiam dolor tortor, egestas a libero eget, sollicitudin maximus nulla. Nunc vitae maximus ipsum. Vestibulum sodales nisi massa, vitae blandit massa luctus id.',
-	videoLink: 'https://player.vimeo.com/video/20924263?color=ffffff&title=0&byline=0&portrait=0',
-	videoCaption: 'View our promo',
-	img: 'assets/img-temp/quality.jpg'
+	title: 'About us',
+	h1: 'WHAT DO WE DO',
+	description: 'We are a team of ambitious robotics professionals working on teenager robotics education in Vancouver, Canada. Our robotics courses are based on the latest, most popular platforms ranging from LEGO, Arduino to Raspberry Pi.',
+	videoLink: 'https://www.youtube.com/embed/8fsbEctnwnw',
+	videoCaption: 'About LEGO Education',
+	img: '/assets/img/home/aboutus.jpg'
 };
 
 export const ourNumbers = {
 	title: 'Our Numbers',
 	h1: 'We work hard',
-	description: 'Etiam dolor tortor, egestas a libero eget, sollicitudin maximus nulla. Nunc vitae maximus ipsum. Vestibulum sodales nisi massa, vitae blandit massa luctus id.',
+	description: 'We are growing fast with our hard-working team members and diverse resources.',
 	advantages: [
-		{counter: 70, h4: 'Courses in our school', details: 'Sed feugiat porttitor nunc Etiam gravida ex justo ac rhoncus purus tristique ut, egestas a libero eget, sollicitudin maximus nulla. Nunc vitae maximus ipsum.'},
-		{counter: 71, h4: 'Courses in our school', details: 'Sed feugiat porttitor nunc Etiam gravida ex justo ac rhoncus purus tristique ut, egestas a libero eget, sollicitudin maximus nulla. Nunc vitae maximus ipsum.'},
-		{counter: 72, h4: 'Courses in our school', details: 'Sed feugiat porttitor nunc Etiam gravida ex justo ac rhoncus purus tristique ut, egestas a libero eget, sollicitudin maximus nulla. Nunc vitae maximus ipsum.'},
-		{counter: 73, h4: 'Courses in our school', details: 'Sed feugiat porttitor nunc Etiam gravida ex justo ac rhoncus purus tristique ut, egestas a libero eget, sollicitudin maximus nulla. Nunc vitae maximus ipsum.'}
+		{counter: 3, h4: 'Course series', details: 'We have 3 main course series including Lego, Arduino and Raspberry Pi.'},
+		{counter: 8, h4: 'Professional teachers', details: 'We have 8 professional teachers with strong robotics background from top uinversities in Canada.'},
+		{counter: 68, h4: 'Happy students', details: '68 students in total were enrolled in our courses in last semester. All of them achieved great improvement on ther robotics skills.'},
+		{counter: 57, h4: 'Courses units', details: 'We have 57 course units for students in different levels.'}
 	]
 };
 
 export const gallery = {
 	title: 'Gallery',
-	description: 'View how it looks',
+	description: 'Our works',
 	pics: [
-		{img: 'assets/img-temp/gallery1.jpg', data_title: 'custom title 1', title: 'Courses for kids', description: 'Nam ullamcorper mauris ex, ut efficitur est convallis nec'},
-		{img: 'assets/img-temp/gallery1.jpg', data_title: 'custom title 1', title: 'Courses for kids', description: 'Nam ullamcorper mauris ex, ut efficitur est convallis nec'},
-		{img: 'assets/img-temp/gallery1.jpg', data_title: 'custom title 1', title: 'Courses for kids', description: 'Nam ullamcorper mauris ex, ut efficitur est convallis nec'},
-		{img: 'assets/img-temp/gallery1.jpg', data_title: 'custom title 1', title: 'Courses for kids', description: 'Nam ullamcorper mauris ex, ut efficitur est convallis nec'},
-		{img: 'assets/img-temp/gallery1.jpg', data_title: 'custom title 1', title: 'Courses for kids', description: 'Nam ullamcorper mauris ex, ut efficitur est convallis nec'},
-		{img: 'assets/img-temp/gallery1.jpg', data_title: 'custom title 1', title: 'Courses for kids', description: 'Nam ullamcorper mauris ex, ut efficitur est convallis nec'}
+		{img: '/assets/img-temp/gallery1.jpg', data_title: 'custom title 1', title: 'Courses for kids', description: 'Nam ullamcorper mauris ex, ut efficitur est convallis nec'},
+		{img: '/assets/img-temp/gallery1.jpg', data_title: 'custom title 1', title: 'Courses for kids', description: 'Nam ullamcorper mauris ex, ut efficitur est convallis nec'},
+		{img: '/assets/img-temp/gallery1.jpg', data_title: 'custom title 1', title: 'Courses for kids', description: 'Nam ullamcorper mauris ex, ut efficitur est convallis nec'},
+		{img: '/assets/img-temp/gallery1.jpg', data_title: 'custom title 1', title: 'Courses for kids', description: 'Nam ullamcorper mauris ex, ut efficitur est convallis nec'},
+		{img: '/assets/img-temp/gallery1.jpg', data_title: 'custom title 1', title: 'Courses for kids', description: 'Nam ullamcorper mauris ex, ut efficitur est convallis nec'},
+		{img: '/assets/img-temp/gallery1.jpg', data_title: 'custom title 1', title: 'Courses for kids', description: 'Nam ullamcorper mauris ex, ut efficitur est convallis nec'}
 	]
 };
 
@@ -98,18 +120,18 @@ export const partners = {
 	h1: 'Who trusts us',
 	description: 'Etiam dolor tortor, egestas a libero eget, sollicitudin maximus nulla. Nunc vitae maximus ipsum. Vestibulum sodales nisi massa, vitae blandit massa luctus id.',
 	pics: [
-		{img: 'assets/img-temp/partners/img01.png', link: '#'},
-		{img: 'assets/img-temp/partners/img02.png', link: '#'},
-		{img: 'assets/img-temp/partners/img03.png', link: '#'},
-		{img: 'assets/img-temp/partners/img04.png', link: '#'},
-		{img: 'assets/img-temp/partners/img05.png', link: '#'},
-		{img: 'assets/img-temp/partners/img06.png', link: '#'},
-		{img: 'assets/img-temp/partners/img07.png', link: '#'},
-		{img: 'assets/img-temp/partners/img08.png', link: '#'},
-		{img: 'assets/img-temp/partners/img09.png', link: '#'},
-		{img: 'assets/img-temp/partners/img10.png', link: '#'},
-		{img: 'assets/img-temp/partners/img11.png', link: '#'},
-		{img: 'assets/img-temp/partners/img12.png', link: '#'}
+		{img: '/assets/img-temp/partners/img01.png', link: '#'},
+		{img: '/assets/img-temp/partners/img02.png', link: '#'},
+		{img: '/assets/img-temp/partners/img03.png', link: '#'},
+		{img: '/assets/img-temp/partners/img04.png', link: '#'},
+		{img: '/assets/img-temp/partners/img05.png', link: '#'},
+		{img: '/assets/img-temp/partners/img06.png', link: '#'},
+		{img: '/assets/img-temp/partners/img07.png', link: '#'},
+		{img: '/assets/img-temp/partners/img08.png', link: '#'},
+		{img: '/assets/img-temp/partners/img09.png', link: '#'},
+		{img: '/assets/img-temp/partners/img10.png', link: '#'},
+		{img: '/assets/img-temp/partners/img11.png', link: '#'},
+		{img: '/assets/img-temp/partners/img12.png', link: '#'}
 	]
 };
 
@@ -120,7 +142,7 @@ export const contact = {
 };
 
 export const footer = {
-	logo: 'assets/img/logo.png',
+	logo: '/assets/img/logo-foot.png',
 	description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae est lorem. Aenean imperdiet nisi a dolor condimentum, id ullamcorper lacus vestibulum.',
 	socials: [
 		{link: '#', type: 'facebook'},
@@ -130,17 +152,17 @@ export const footer = {
 
 	h2: 'Latest Posts',
 	latest_posts: [
-		{img: 'assets/img-temp/post-footer1.jpg', date: 'April 27, 2015', link: '#', title: 'Mauris tellus magna, pretium a feugiat'},
-		{img: 'assets/img-temp/post-footer1.jpg', date: 'April 27, 2015', link: '#', title: 'Mauris tellus magna, pretium a feugiat'}		
+		{img: '/assets/img-temp/post-footer1.jpg', date: 'April 27, 2015', link: '#', title: 'Mauris tellus magna, pretium a feugiat'},
+		{img: '/assets/img-temp/post-footer1.jpg', date: 'April 27, 2015', link: '#', title: 'Mauris tellus magna, pretium a feugiat'}		
 	],
 	pics_title: 'Some photos',
 	pics: [
-		{thumbnails: 'assets/img-temp/gallery1.jpg', img: 'assets/img-temp/footer__gallery1.jpg', title: 'Image 1'},
-		{thumbnails: 'assets/img-temp/gallery1.jpg', img: 'assets/img-temp/footer__gallery2.jpg', title: 'Image 2'},
-		{thumbnails: 'assets/img-temp/gallery1.jpg', img: 'assets/img-temp/footer__gallery3.jpg', title: 'Image 3'},
-		{thumbnails: 'assets/img-temp/gallery1.jpg', img: 'assets/img-temp/footer__gallery4.jpg', title: 'Image 4'},
-		{thumbnails: 'assets/img-temp/gallery1.jpg', img: 'assets/img-temp/footer__gallery5.jpg', title: 'Image 5'},
-		{thumbnails: 'assets/img-temp/gallery1.jpg', img: 'assets/img-temp/footer__gallery6.jpg', title: 'Image 6'},
+		{thumbnails: '/assets/img-temp/gallery1.jpg', img: '/assets/img-temp/footer__gallery1.jpg', title: 'Image 1'},
+		{thumbnails: '/assets/img-temp/gallery1.jpg', img: '/assets/img-temp/footer__gallery2.jpg', title: 'Image 2'},
+		{thumbnails: '/assets/img-temp/gallery1.jpg', img: '/assets/img-temp/footer__gallery3.jpg', title: 'Image 3'},
+		{thumbnails: '/assets/img-temp/gallery1.jpg', img: '/assets/img-temp/footer__gallery4.jpg', title: 'Image 4'},
+		{thumbnails: '/assets/img-temp/gallery1.jpg', img: '/assets/img-temp/footer__gallery5.jpg', title: 'Image 5'},
+		{thumbnails: '/assets/img-temp/gallery1.jpg', img: '/assets/img-temp/footer__gallery6.jpg', title: 'Image 6'},
 	]
 };
 
