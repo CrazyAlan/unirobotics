@@ -32,7 +32,7 @@ class Header extends Component {
   			promotions.map((promotion, i)=>{
   				return (
   					<li key={i}>
-						<a href={`/courses/?courseID=${promotion.id}`}>{promotion.course}</a>  						
+						<Link to={`/courses/?courseID=${promotion.id}`}>{promotion.course}</Link>  						
   					</li>
   				);
   			})

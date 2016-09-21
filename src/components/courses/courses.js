@@ -13,6 +13,12 @@ class Courses extends Component {
     this.props.fetchCourses();
   }
 
+  componentWillUpdate() {
+    this.props.fetchCourses();
+    console.log('fetch course');
+  }
+
+
   renderCourse(courseCatalog){
 
   	if (typeof courseCatalog !== undefined) {
@@ -49,7 +55,7 @@ class Courses extends Component {
   }
 
   render() {
-
+  	console.log('re-render course');
   	if (this.props.courses !== null) {
   		const { courses } = this.props;
   		var { courseID } = this.context.location.query;
@@ -60,7 +66,6 @@ class Courses extends Component {
   		
   		const courseCatalog = courses[courseID];
 
-  		console.log(courseCatalog);
 
   		return (
 			<section id="courses">

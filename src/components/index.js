@@ -17,10 +17,11 @@ class Main extends Component {
   
   componentWillMount() {
     this.props.fetchData();
-    //console.log($.fn);
   }
 
+  
   render() {
+    console.log('re-render main page');
     return (
     	<div>
 	    	<Header />
