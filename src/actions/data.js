@@ -143,10 +143,9 @@ export const contact = {
 
 export const footer = {
 	logo: '/assets/img/logo-foot.png',
-	description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae est lorem. Aenean imperdiet nisi a dolor condimentum, id ullamcorper lacus vestibulum.',
+	description: 'We are a team of ambitious robotics professionals working on teenager robotics education in Vancouver, Canada. Our robotics courses are based on the latest, most popular platforms ranging from LEGO, Arduino to Raspberry Pi.',
 	socials: [
-		{link: '#', type: 'facebook'},
-		{link: '#', type: 'facebook'},
+		{link: '#', type: 'weixin'},
 		{link: '#', type: 'facebook'}
 	],
 
