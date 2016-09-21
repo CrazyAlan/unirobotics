@@ -1,9 +1,9 @@
 export const header = {
 	logo: '/assets/img/logo.png',
 	tabs: [
-		{name: 'Home', link: ''},
-		{name: 'Courses', link: 'courses'},
-		{name: 'Contacts', link: 'contacts'}
+		{name: 'Home', link: '/'},
+		{name: 'Courses', link: '/courses'},
+		{name: 'Contacts', link: '/contacts'}
 	],
 	socials: [
 		{link: '#', name: 'weixin'}
