@@ -61,7 +61,7 @@ class Footer extends Component {
 				<div className="g-pt-40 g-pb-40">
 					<div className="container">
 						<div className="row">
-							<div className="col-md-offset-4 col-md-4 col-sm-6 col-xs-8 col-xs-offset-2 col-sm-offset-0 text-left g-pt-10">
+							<div className="col-md-offset-1 col-md-4 col-sm-6 col-xs-8 col-xs-offset-2 col-sm-offset-0 text-left g-pt-10">
 								<img className="img-responsive g-mb-20 footer-logo__img" src={ footer.logo } alt=""/>
 								<p className="footer__text g-mb-20">{ footer.description}</p>
 								<ul className="list-inline">

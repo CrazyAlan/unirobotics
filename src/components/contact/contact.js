@@ -26,11 +26,11 @@ class Contact extends Component {
 
 					<div className="tab-v1">
 						<ul className="nav nav-tabs">
-							<li className="active"><a href="#write-us" data-toggle="tab">Write us</a></li>
-							<li className="pull-right"><a href="#contacts" data-toggle="tab">Contacts</a></li>
+							<li className="active"><a href="#contacts" data-toggle="tab">Contacts</a></li>
+							<li className="pull-right"><a href="#write-us" data-toggle="tab">Write us</a></li>
 						</ul>
 						<div className="tab-content">
-							<div className="tab-pane fade in active" id="write-us">
+							<div className="tab-pane fade in" id="write-us">
 								<div className="form">
 									<form onSubmit={handleSubmit(this.onSubmit.bind(this))} id="sky-form3" className="sky-form contact-style">
 										<fieldset>
@@ -73,7 +73,7 @@ class Contact extends Component {
 								</div>
 							</div>
 
-							<div className="tab-pane fade in" id="contacts">
+							<div className="tab-pane fade in active" id="contacts">
 								<div className="row g-pt-60 text-center tag-box tag-box-v3">
 									<ul className="list-unstyled col-md-4 g-mb-30">
 										<li><span className="icon-directions contact-list__icon g-dp-block g-mb-10"></span></li>
