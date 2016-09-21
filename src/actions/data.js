@@ -19,44 +19,40 @@ export const promotions = [
 export const courses = [
 
 	                  {
-	                  	title: 'Lego',
-                  		description: 'START FROM HERE',
+	                  	title: 'START FROM HERE',
+                  		description: 'LEGO',
 	                  	id: 0,
 	                  	abstract: 'Entry level robotics course with adorable LEGO Mindstorm robotics education platform',
 
 	                  	courses: [
-	                               {'course': 'Lego 1: Basic movement and sensors', 'level': 'Lego', 'id': 0, 'img': '/assets/img/lego/level1.jpg', 'price': 300, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 1.5},
-	                               {'course': 'Lego 2: More sensors and logic decisions', 'level': 'Lego', 'id': 0, 'img': '/assets/img/lego/level2.png', 'price': 350, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 1.5},
-	                               {'course': 'Lego 3: Control theory', 'level': 'Lego', 'id': 0, 'img': '/assets/img/lego/level3.jpg', 'price': 400, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 1.5},
-	                               {'course': 'Lego 4: Grand project', 'level': 'Lego', 'id': 0, 'img': '/assets/img/lego/level4.png', 'price': 450, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 1.5},
+	                               {'course': 'Lego 1: Basic movement and sensors', 'level': 'Lego', 'id': 0, 'img': '/assets/img/lego/level1.jpg', 'price': 300, 'description': 'This section includes an introduction to the Lego Mindstorm. The students will learn about basic modules and sensors. It is for students with no background on Lego Mindstorm.', 'duration': 1.5},
+	                               {'course': 'Lego 2: More sensors and logic decisions', 'level': 'Lego', 'id': 0, 'img': '/assets/img/lego/level2.png', 'price': 350, 'description': 'This section is for students who understand basic movement and sensor use. The students will learn about more sensor and simple logic programming in this section.', 'duration': 1.5},
+	                               {'course': 'Lego 3: Control theory', 'level': 'Lego', 'id': 0, 'img': '/assets/img/lego/level3.jpg', 'price': 400, 'description': 'This section is for students already understanding basic movement and control. The students will learn about simple control theory in this section.', 'duration': 1.5},
+	                               {'course': 'Lego 4: Grand project', 'level': 'Lego', 'id': 0, 'img': '/assets/img/lego/level4.png', 'price': 450, 'description': 'In this section, the students will build their own grand project with the help from the teachers.', 'duration': 1.5},
 	                  ]},
 
 	                  {
-	                  	title: 'Arduino',
-                  		description: 'LEARN SOMETHING NEW',
+	                  	title: 'LERAN SOMETHING NEW',
+                  		description: 'ARDUINO',
 	                  	id:1,
 	                  	abstract: 'Intermediate level robotics course with the most popular open-source hardware platform, Arduino.',
 	                  	courses: [
-	                               {'course': 'Arduino 1', 'level': 'Arduino', 'id': 0, 'img': '/assets/img/arduino/level1.jpg', 'price': 350, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 2},
-	                               {'course': 'Arduino 2', 'level': 'Arduino', 'id': 0, 'img': '/assets/img/arduino/level2.jpg', 'price': 400, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 2},
-	                               {'course': 'Arduino 3', 'level': 'Arduino', 'id': 0, 'img': '/assets/img/arduino/level3.jpg', 'price': 450, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 2},
-	                               {'course': 'Arduino 4', 'level': 'Arduino', 'id': 0, 'img': '/assets/img/arduino/level4.jpg', 'price': 500, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 2},
+	                               {'course': 'Arduino 1: Introduction and basic sensors', 'level': 'Arduino', 'id': 0, 'img': '/assets/img/arduino/level1.jpg', 'price': 350, 'description': 'In this section, the Arduino hardware platform and software IDE are introduced. Students will also learn about usage of basic sensors.', 'duration': 2},
+	                               {'course': 'Arduino 2: Robot arm and control', 'level': 'Arduino', 'id': 0, 'img': '/assets/img/arduino/level2.jpg', 'price': 400, 'description': 'This section is for students who understand Arduino and programming with IDE. Students will learn about servo motor and robot arm design in this section.', 'duration': 2},
+	                               {'course': 'Arduino 3: Mobile platform', 'level': 'Arduino', 'id': 0, 'img': '/assets/img/arduino/level3.jpg', 'price': 450, 'description': 'This section if for students who has a good understanding of motor control and sensors usage with Arduino. In this section, students will learn how to build a mobile platform and program for it', 'duration': 2},
+	                               {'course': 'Arduino 4: Grand project', 'level': 'Arduino', 'id': 0, 'img': '/assets/img/arduino/level4.jpg', 'price': 500, 'description': 'In this section, the students will build their own grand project with the help from the teachers', 'duration': 2},
 	                  ]},
 
 	                  {
-	                  	title: 'Raspberry',
-                  		description: 'Learn something',
+	                  	title: 'Challenge yourself',
+                  		description: 'Raspberry Pi',
 	                  	id:2,
-	                  	abstract: 'This is the description for the raspery course description',
+	                  	abstract: 'Use the most popular open-source Linux computer to build your powerful project',
 	                  	courses: [
-	                               {'course': 'Dance 1', 'level': 'beginner', 'id': 0, 'img': '/assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
-	                               {'course': 'Dance 2', 'level': 'beginner', 'id': 0, 'img': '/assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
-	                               {'course': 'Dance 3', 'level': 'beginner', 'id': 0, 'img': '/assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
-	                               {'course': 'Dance 4', 'level': 'beginner', 'id': 0, 'img': '/assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
-	                               {'course': 'Dance 5', 'level': 'beginner', 'id': 0, 'img': '/assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
-	                               {'course': 'Dance 6', 'level': 'beginner', 'id': 0, 'img': '/assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
-	                               {'course': 'Dance 7', 'level': 'beginner', 'id': 0, 'img': '/assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6},
-	                               {'course': 'Dance 8', 'level': 'beginner', 'id': 0, 'img': '/assets/img-temp/course1.jpg', 'price': 150, 'description': 'Curabitur eget tortor sed urna faucibus iaculis id et nulla. Tortor sed urna faucibus iaculis id et nulla.', 'duration': 6}
+	                               {'course': 'Raspberry Pi 1', 'level': 'Raspberry Pi', 'id': 0, 'img': '/assets/img-temp/course1.jpg', 'price': 150, 'description': 'Coming soon', 'duration': 6},
+	                               {'course': 'Raspberry Pi 2', 'level': 'Raspberry Pi', 'id': 0, 'img': '/assets/img-temp/course1.jpg', 'price': 150, 'description': 'Coming soon', 'duration': 6},
+	                               {'course': 'Raspberry Pi 3', 'level': 'Raspberry Pi', 'id': 0, 'img': '/assets/img-temp/course1.jpg', 'price': 150, 'description': 'Coming soon', 'duration': 6},
+	                               {'course': 'Raspberry Pi 4', 'level': 'Raspberry Pi', 'id': 0, 'img': '/assets/img-temp/course1.jpg', 'price': 150, 'description': 'Coming soon', 'duration': 6},
 	                  ]}
 	            ];
 
