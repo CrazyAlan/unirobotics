@@ -1,6 +1,6 @@
 import React, { Component, PropTypes } from 'react';
 import { connect } from 'react-redux';
-import { fetchCourses } from '../../actions/index';
+import { fetchCourses, fetchPromotions } from '../../actions/index';
 import { Link } from 'react-router';
 
 class Courses extends Component {
@@ -11,12 +11,8 @@ class Courses extends Component {
 
   componentWillMount() {
     this.props.fetchCourses();
-  }
-
-  componentWillUpdate() {
-    this.props.fetchCourses();
-    console.log('fetch course');
-  }
+    this.props.fetchPromotions();
+ }
 
 
   renderCourse(courseCatalog){
@@ -99,7 +95,7 @@ function mapStateToProps(state) {
   return { courses: state.courses.all };
 }
 
-export default connect(mapStateToProps, { fetchCourses })(Courses);
+export default connect(mapStateToProps, { fetchCourses, fetchPromotions })(Courses);
 
 
 

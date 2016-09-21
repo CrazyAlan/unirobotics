@@ -54,9 +54,9 @@ class Header extends Component {
 						<span className="icon-bar"></span>
 					</button>
 
-					<a className="navbar-brand" href="#body">
+					<Link className="navbar-brand" to="/">
 						<img className="img-responsive" src={ header.logo } alt="Logo"/>
-					</a>
+					</Link>
 				</div>
 
 				<div className="collapse navbar-collapse navbar-ex1-collapse g-pt-25">

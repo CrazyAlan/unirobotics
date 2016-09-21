@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { fetchPromotions,  } from '../../actions/index';
+import { fetchPromotions } from '../../actions/index';
 import { Link } from 'react-router';
 
 class Promotion extends Component {
@@ -23,9 +23,9 @@ class Promotion extends Component {
 								<span className="course__dur">
 									<i className="fa course__icon fa-calendar g-mr-10 g-mb-10"></i> Duration: {promotion.duration}
 								</span>
-								<h1 className="course__title g-mb-20 font-main"><a href="#">{promotion.course}</a></h1>
+								<h1 className="course__title g-mb-20 font-main"><Link to={'/courses/?courseID='+promotion.id}> {promotion.course}</Link></h1>
 								<p className="course__text g-mb-30">{promotion.description}</p>
-								<a href={'/course/'+promotion.id} className="btn-u course__btn-u">Learn More</a>
+								<Link to={'/courses/?courseID='+promotion.id} className="btn-u course__btn-u">Learn More</Link>
 							</div>
 						</div>
 					</div>

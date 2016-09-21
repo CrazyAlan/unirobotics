@@ -78,19 +78,19 @@ class Contact extends Component {
 									<ul className="list-unstyled col-md-4 g-mb-30">
 										<li><span className="icon-directions contact-list__icon g-dp-block g-mb-10"></span></li>
 										 <li className="contact-list__item-1">Address</li>
-										<li className="contact-list__item-2">Sit amet adipiscing</li>
+										<li className="contact-list__item-2">8888 University Dr,<br /> Burnaby, BC V5A 1S6</li>
 									</ul>
 
 									<ul className="list-unstyled col-md-4 g-mb-30">
 										<li><span className="icon-call-in contact-list__icon g-dp-block g-mb-10"></span></li>
 										<li className="contact-list__item-1">Phone number</li>
-										<li className="contact-list__item-2">+4586 585 4580</li>
+										<li className="contact-list__item-2">+778 681 1568</li>
 									</ul>
 
 									<ul className="list-unstyled col-md-4">
 										<li><span className="icon-envelope-open contact-list__icon g-dp-block g-mb-10"></span></li>
 										<li className="contact-list__item-1">Email</li>
-										<li className="contact-list__item-2">info@unitutor.com</li>
+										<li className="contact-list__item-2">unirobotics.ca@gmail.com</li>
 									</ul>
 								</div>
 							</div>
