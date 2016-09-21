@@ -63,8 +63,8 @@ export const teachers = {
   description: 'Engineers and tutors with diverse background from top universities in Canada',
   teachers: [
     {teacher: 'Alan Chen', id: 0, img: '/assets/img/home/Teacher_ALan.jpg', socials: [{link: '#', type: 'facebook'}], position: 'CEO, Computing Scientist', introduction: 'Computing Science Msc. of Simon Fraser University, programmer with more than 10 years experience'},
-    {teacher: 'Lethic Zhang', id: 1, img: '/assets/img/home/Teacher_Lethic.jpg', socials: [{link: '#', type: 'facebook'}], position: 'CTO, Roboticist', introduction: 'Computing Science Msc. of Simon Fraser University, robotics researcher in Autonomy lab, SFU MBA, artist'},
-    {teacher: 'Tim Blackwater', id: 2, img: '/assets/img/home/Teacher_Tim.jpg', socials: [{link: '#', type: 'facebook'}], position: 'Tutor, Maker', introduction: 'Mechanical Engineering Meng. of Simon Fraser University, designer, maker'},
+    {teacher: 'Martin Zhang', id: 1, img: '/assets/img/home/Teacher_Martin.png', socials: [{link: '#', type: 'facebook'}], position: 'CTO, Roboticist', introduction: 'Computing Science Msc. of Simon Fraser University, robotics researcher in Autonomy lab, SFU MBA, artist'},
+    {teacher: 'Tim Blackwater', id: 2, img: '/assets/img/home/Teacher_Tim.jpg', socials: [{link: '#', type: 'facebook'}], position: 'Tutor, Maker', introduction: 'Mechanical Engineering Meng. of University of British Columbia, designer, maker'},
     {teacher: 'Zicun Cong', id: 3, img: '/assets/img/home/Teacher_Zicun.jpg', socials: [{link: '#', type: 'facebook'}], position: 'Tutor, Educator', introduction: 'Education M.A. of Victoria University, teenager educator, counsultant'},
   ]
 };
