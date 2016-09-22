@@ -1,6 +1,8 @@
 import axios from 'axios';
-import * as data from './data'
-import * as dataCn from './dataCn'
+import * as data from './data';
+import * as dataCn from './dataCn';
+import cookie from 'react-cookie';
+
 export const FETCH_POSTS = 'FETCH_POSTS';
 export const CREATE_POST = 'CREATE_POST';
 export const FETCH_POST = 'FETCH_POST';
@@ -17,9 +19,12 @@ const API_KEY = '?key=lkajdsfapipwietpw';
 
 var language = 'en';
 
+if (cookie.load('lang') !== undefined) {
+  language = cookie.load('lang');
+};
+
 export function updateConfig(lang){
   language = lang;
-
   return {
     type: UPDATE_CONFIG,
     payload: lang

@@ -11,7 +11,7 @@ export const header = {
 };
 
 export const promotions = [
-                    {'course': 'Lego', 'level': 'beginner','id': 0, 'img': '/assets/img/home/lego_cropped.png', 'duration': '6 months', 'description': 'Entry level robotics course with adorable LEGO Mindstorm robotics education platform'},
+                    {'course': '乐高', 'level': 'beginner','id': 0, 'img': '/assets/img/home/lego_cropped.png', 'duration': '6 months', 'description': 'Entry level robotics course with adorable LEGO Mindstorm robotics education platform'},
                     {'course': 'Arduino', 'level': 'intermediate' ,'id': 1, 'img': '/assets/img/home/arduino_cropped.png', 'duration': '6 months', 'description': 'Intermediate level robotics course with the most popular open-source hardware platform, Arduino.'},
                     {'course': 'Raspberry Pi', 'level': 'advanced' ,'id': 2, 'img': '/assets/img/home/RPi_cropped.png', 'duration': '6 months', 'description': 'Advanced level robotics course with powerful linux computer Raspberry Pi.'}
                    ];
@@ -143,10 +143,9 @@ export const contact = {
 
 export const footer = {
 	logo: '/assets/img/logo-foot.png',
-	description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae est lorem. Aenean imperdiet nisi a dolor condimentum, id ullamcorper lacus vestibulum.',
+	description: 'We are a team of ambitious robotics professionals working on teenager robotics education in Vancouver, Canada. Our robotics courses are based on the latest, most popular platforms ranging from LEGO, Arduino to Raspberry Pi.',
 	socials: [
-		{link: '#', type: 'facebook'},
-		{link: '#', type: 'facebook'},
+		{link: '#', type: 'weixin'},
 		{link: '#', type: 'facebook'}
 	],
 

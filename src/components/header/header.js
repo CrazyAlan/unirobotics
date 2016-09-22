@@ -2,20 +2,39 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { updateConfig, fetchPromotions, fetchCourses, fetchTeachers, fetchData } from '../../actions/index';
 import { Link } from 'react-router';
+import cookie from 'react-cookie';
+
 
 class Header extends Component {
-  componentWillMount() {
-	    //this.props.fetchData();
+  componentDidMount() {
+
+	 var lang;
+	 if (cookie.load('lang') !== undefined) {
+	 	lang = cookie.load('lang');
+	 } else{
+	 	lang = window.navigator.language;
+	 };
+
+	 if (lang === 'zh-cn' || lang === 'cn') {
+	 	updateConfig('cn');
+	 	cookie.save('lang', 'cn' );
+	 } else {
+	 	updateConfig('en');
+	 	cookie.save('lang', 'en' );	 	
+	 };
   }
 
   changeLang() {
 
   	const { lang, updateConfig, fetchPromotions, fetchCourses, fetchTeachers, fetchData } = this.props;
 
+  	console.log('previous state language', lang);
    	if (lang === 'en') {
-  		updateConfig('cn')
+  		updateConfig('cn');
+	 	cookie.save('lang', 'cn' );  		
   	} else {
   		updateConfig('en')
+  		cookie.save('lang', 'en' );
   	};
 
   	fetchPromotions();
@@ -32,7 +51,7 @@ class Header extends Component {
   			promotions.map((promotion, i)=>{
   				return (
   					<li key={i}>
-						<Link to={`/courses/?courseID=${promotion.id}`}>{promotion.course}</Link>  						
+						<a href={`/courses/?courseID=${promotion.id}`}>{promotion.course}</a>  						
   					</li>
   				);
   			})

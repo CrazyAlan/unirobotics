@@ -21,7 +21,6 @@ class Main extends Component {
 
   
   render() {
-    console.log('re-render main page');
     return (
     	<div>
 	    	<Header />
