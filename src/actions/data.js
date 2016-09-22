@@ -6,7 +6,7 @@ export const header = {
 		{name: 'Contacts', link: '/contacts'}
 	],
 	socials: [
-		{link: '#', name: 'weixin'}
+		{link: '/contacts', name: 'weixin'}
 	]
 };
 
@@ -145,8 +145,8 @@ export const footer = {
 	logo: '/assets/img/logo-foot.png',
 	description: 'We are a team of ambitious robotics professionals working on teenager robotics education in Vancouver, Canada. Our robotics courses are based on the latest, most popular platforms ranging from LEGO, Arduino to Raspberry Pi.',
 	socials: [
-		{link: '#', type: 'weixin'},
-		{link: '#', type: 'facebook'}
+		{link: '/contacts', type: 'weixin'},
+		{link: '/contacts', type: 'facebook'}
 	],
 
 	h2: 'Latest Posts',

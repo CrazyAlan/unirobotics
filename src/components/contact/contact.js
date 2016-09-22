@@ -75,22 +75,28 @@ class Contact extends Component {
 
 							<div className="tab-pane fade in active" id="contacts">
 								<div className="row g-pt-60 text-center tag-box tag-box-v3">
-									<ul className="list-unstyled col-md-4 g-mb-30">
+									<ul className="list-unstyled col-md-3 g-mb-30">
 										<li><span className="icon-directions contact-list__icon g-dp-block g-mb-10"></span></li>
 										 <li className="contact-list__item-1">Address</li>
 										<li className="contact-list__item-2">8888 University Dr,<br /> Burnaby, BC V5A 1S6</li>
 									</ul>
 
-									<ul className="list-unstyled col-md-4 g-mb-30">
+									<ul className="list-unstyled col-md-3 g-mb-30">
 										<li><span className="icon-call-in contact-list__icon g-dp-block g-mb-10"></span></li>
 										<li className="contact-list__item-1">Phone number</li>
 										<li className="contact-list__item-2">+778 681 1568</li>
 									</ul>
 
-									<ul className="list-unstyled col-md-4">
+									<ul className="list-unstyled col-md-3">
 										<li><span className="icon-envelope-open contact-list__icon g-dp-block g-mb-10"></span></li>
 										<li className="contact-list__item-1">Email</li>
 										<li className="contact-list__item-2">unirobotics.ca@gmail.com</li>
+									</ul>
+
+									<ul className="list-unstyled col-md-3">
+										<li><span className="icon-envelope-open contact-list__icon g-dp-block g-mb-10"></span></li>
+										<li className="contact-list__item-1">Wexin</li>
+										<li className="contact-list__item-2">+17786811568</li>
 									</ul>
 								</div>
 							</div>
