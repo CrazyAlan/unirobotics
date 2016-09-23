@@ -34,7 +34,10 @@ class Courses extends Component {
 		        <h4 className="modal-title" id="myModalLabel">{aCourse.course}</h4>
 		      </div>
 		      <div className="modal-body">
-		        
+		        <h4>{aCourse.price} </h4>
+		        <h4>{aCourse.startDate} </h4>
+		        <h4>{aCourse.courseDate} </h4>
+		        <p> {aCourse.description}</p>
 		      </div>
 
 		    </div>
@@ -62,7 +65,7 @@ class Courses extends Component {
 
 						<div className="course-info__bott g-padding-30">
 							<p className="course-info__price g-mb-40">
-							<span className="course-info__price--big"> <strong>${course.price}</strong></span>
+							<span className="course-info__price--big"> <strong>{course.price}</strong></span>
 							</p>
 							<p className="course-info__text g-mb-25">{course.description}</p>
 							<span className="course-info__dur g-mb-20 g-dp-block">
