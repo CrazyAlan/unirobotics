@@ -44,6 +44,28 @@ class Header extends Component {
 
   }
 
+  renderModal(){
+  	return (
+	  	<div className="modal fade" id="weixin" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		  <div className="modal-dialog" role="document">
+		    <div className="modal-content">
+		      <div className="modal-header">
+		        <button type="button" className="close" data-dismiss="modal" aria-label="Close">
+		          <span aria-hidden="true">&times;</span>
+		        </button>
+		        <h4 className="modal-title" id="myModalLabel">Weixin</h4>
+		      </div>
+		      <div className="modal-body">
+		      
+		      <img src='/assets/img/home/weixin.jpg' className = 'center-block about__img equal-height-column img-responsive'/>
+		      </div>
+
+		    </div>
+		  </div>
+		</div>
+	);
+  }
+
   renderCourseList(promotions){
   	return (
   		<ul className="dropdown-menu">
@@ -63,6 +85,9 @@ class Header extends Component {
   render() {
   	const { header, lang, promotions } = this.props;
     return (
+    <div>
+    {this.renderModal()}
+	
       <nav className="header one-page-header navbar navbar-default navbar-fixed-top courses-header one-page-nav-scrolling one-page-nav__fixed" data-role="navigation">
 			<div className="container-fluid g-pr-40 g-pl-40">
 				<div className="menu-container page-scroll">
@@ -77,7 +102,6 @@ class Header extends Component {
 						<img className="img-responsive" src={ header.logo } alt="Logo"/>
 					</Link>
 				</div>
-
 				<div className="collapse navbar-collapse navbar-ex1-collapse g-pt-25">
 					<div className="menu-container">
 						<ul className="nav navbar-nav">
@@ -115,8 +139,8 @@ class Header extends Component {
 									{
 										header.socials.map((social, i) =>{
 											return (
-												<li key={i}>
-													<a href={social.link} className="nav__social g-ml-15 g-sm-ml-0">
+												<li key={i} data-toggle="modal" data-target="#weixin">
+													<a className="nav__social g-ml-15 g-sm-ml-0">
 														<i className={`icon-custom icon-sm rounded-x fa fa-${social.name}`}></i>
 													</a>
 												</li>
@@ -130,6 +154,8 @@ class Header extends Component {
 				</div>
 			</div>
 		</nav>
+
+		</div>
     );
   }
 }
