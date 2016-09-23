@@ -1,6 +1,6 @@
 import React, { Component, PropTypes } from 'react';
 import { connect } from 'react-redux';
-import { fetchCourses, fetchPromotions } from '../../actions/index';
+import { fetchCourses, fetchPromotions, fetchACourse } from '../../actions/index';
 import { Link } from 'react-router';
 
 class Courses extends Component {
@@ -15,16 +15,45 @@ class Courses extends Component {
  }
 
 
+ fetchCourseDetail(course){
+ 	console.log('fetch details');
+ 	this.props.fetchACourse(course);
+ }
+
+  renderModal(){
+  	const { aCourse } = this.props;
+  	if (aCourse !== null) {
+  	return (
+	  	<div className="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		  <div className="modal-dialog" role="document">
+		    <div className="modal-content">
+		      <div className="modal-header">
+		        <button type="button" className="close" data-dismiss="modal" aria-label="Close">
+		          <span aria-hidden="true">&times;</span>
+		        </button>
+		        <h4 className="modal-title" id="myModalLabel">{aCourse.course}</h4>
+		      </div>
+		      <div className="modal-body">
+		        
+		      </div>
+
+		    </div>
+		  </div>
+		</div>
+	)
+  }
+  }
+
   renderCourse(courseCatalog){
 
   	if (typeof courseCatalog !== undefined) {
 
 	  	return courseCatalog.courses.map((course, i) => {
 	  		return (
-		  		<div className="item text-left" key={i}>
-					<div className="course-info">
+		  		<div className="item text-left" data-toggle="modal" data-target="#myModal" key={i} onClick={this.fetchCourseDetail.bind(this, course)}>
+					<div className="course-info" >
 						<div className="course-info__block">
-							<img className="course-info__img" src={course.img} alt=""/>
+							<img className="course-info__img" src={course.img} alt="" data-toggle="modal" data-target="#myModal"/>
 							<a href="#" className="course-info__cat g-padding-10">{course.level}</a>
 							<h2 className="course-info__title font-main">
 								<a className="course-info__link" href="#">{course.course}</a>
@@ -51,7 +80,6 @@ class Courses extends Component {
   }
 
   render() {
-  	console.log('re-render course');
   	if (this.props.courses !== null) {
   		const { courses } = this.props;
   		var { courseID } = this.context.location.query;
@@ -76,6 +104,7 @@ class Courses extends Component {
 						<div className="owl2-carousel-v2 owl-theme controls-v1">
 							{this.renderCourse(courseCatalog)}
 						</div>
+						{this.renderModal()}
 					</div>
 				</div>
 			</section>
@@ -92,10 +121,10 @@ class Courses extends Component {
 }
 
 function mapStateToProps(state) {
-  return { courses: state.courses.all };
+  return { courses: state.courses.all, aCourse: state.courses.aCourse };
 }
 
-export default connect(mapStateToProps, { fetchCourses, fetchPromotions })(Courses);
+export default connect(mapStateToProps, { fetchCourses, fetchPromotions, fetchACourse })(Courses);
 
 
 

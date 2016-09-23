@@ -13,6 +13,7 @@ export const FETCH_TEACHERS = 'FETCH_TEACHERS';
 export const FETCH_DATA = 'FETCH_DATA';
 export const FETCH_CONFIG = 'FETCH_CONFIG';
 export const UPDATE_CONFIG = 'UPDATE_CONFIG';
+export const FETCH_A_COURSE = 'FETCH_A_COURSE';
 
 const ROOT_URL = 'http://reduxblog.herokuapp.com/api';
 const API_KEY = '?key=lkajdsfapipwietpw';
@@ -44,6 +45,13 @@ export function fetchCourses(){
   return {
     type: FETCH_COURSES,
     payload: language === 'cn' ? dataCn.courses : data.courses
+  }
+}
+
+export function fetchACourse(course){
+  return {
+    type: FETCH_A_COURSE,
+    payload: course
   }
 }
 
