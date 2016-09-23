@@ -5,6 +5,8 @@ import loadJS from 'load-js';
 export default class App extends Component {
   componentDidUpdate() {
 
+    window.scrollTo(0,0);
+
 	loadJS("/assets/js/plugins/cube-portfolio.js")
     .then(function() {
       window.App.init();

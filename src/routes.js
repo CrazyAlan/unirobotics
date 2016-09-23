@@ -10,7 +10,7 @@ import CoursePage from './components/courses';
 import ContactPage from './components/contacts';
 
 export default (
-  <Route path="/" component={App}>
+  <Route path="/" component={App} >
     <IndexRoute component={Main} />
     <Route path="courses" component={CoursePage} />
     <Route path="courses/?courseID=:courseID" component={CoursePage} />
