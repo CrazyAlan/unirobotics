@@ -39,7 +39,7 @@ export const courses = [
 	                  	courses: [
 	                               {'course': 'Arduino 1: Introduction and basic sensors', 'level': 'Arduino', 'id': 0, 'img': '/assets/img/arduino/level1.jpg', 'price': 350, 'description': 'In this section, the Arduino hardware platform and software IDE are introduced. Students will also learn about usage of basic sensors.', 'duration': 2, courseDate: 'Course schedule: SAT 14:00pm', startDate: 'Start Date Oct.1'},
 	                               {'course': 'Arduino 2: Robot arm and control', 'level': 'Arduino', 'id': 0, 'img': '/assets/img/arduino/level2.jpg', 'price': 400, 'description': 'This section is for students who understand Arduino and programming with IDE. Students will learn about servo motor and robot arm design in this section.', 'duration': 2, courseDate: 'SAT 14:00pm', startDate: 'Oct.1'},
-	                               {'course': 'Arduino 3: Mobile platform', 'level': 'Arduino', 'id': 0, 'img': '/assets/img/arduino/level3.jpg', 'price': 450, 'description': 'This section if for students who has a good understanding of motor control and sensors usage with Arduino. In this section, students will learn how to build a mobile platform and program for it', 'duration': 2, courseDate: 'SAT 14:00pm', startDate: 'Oct.1'},
+	                               {'course': 'Arduino 3: Mobile platform', 'level': 'Arduino', 'id': 0, 'img': '/assets/img/arduino/level3.jpg', 'price': 450, 'description': 'This section is for students who has a good understanding of motor control and sensors usage with Arduino. In this section, students will learn how to build a mobile platform and program for it', 'duration': 2, courseDate: 'SAT 14:00pm', startDate: 'Oct.1'},
 	                               {'course': 'Arduino 4: Grand project', 'level': 'Arduino', 'id': 0, 'img': '/assets/img/arduino/level4.jpg', 'price': 500, 'description': 'In this section, the students will build their own grand project with the help from the teachers', 'duration': 2},
 	                  ]},
 
@@ -47,7 +47,7 @@ export const courses = [
 	                  	title: 'Challenge yourself',
                   		description: 'Raspberry Pi',
 	                  	id:2,
-	                  	abstract: 'Use the most popular open-source Linux computer to build your powerful project',
+	                  	abstract: 'Use the most popular open-source Linux computer to build your powerful robot project',
 	                  	courses: [
 	                               {'course': 'Raspberry Pi 1', 'level': 'Raspberry Pi', 'id': 0, 'img': '/assets/img-temp/course1.jpg', 'price': 150, 'description': 'Coming soon', 'duration': 6, courseDate: 'SAT 14:00pm', startDate: 'Oct.1'},
 	                               {'course': 'Raspberry Pi 2', 'level': 'Raspberry Pi', 'id': 0, 'img': '/assets/img-temp/course1.jpg', 'price': 150, 'description': 'Coming soon', 'duration': 6, courseDate: 'SAT 14:00pm', startDate: 'Oct.1'},
@@ -84,7 +84,7 @@ export const ourNumbers = {
 	advantages: [
 		{counter: 3, h4: 'Course series', details: 'We have 3 main course series including Lego, Arduino and Raspberry Pi.'},
 		{counter: 8, h4: 'Professional teachers', details: 'We have 8 professional teachers with strong robotics background from top uinversities in Canada.'},
-		{counter: 68, h4: 'Happy students', details: '68 students in total were enrolled in our courses in last semester. All of them achieved great improvement on ther robotics skills.'},
+		{counter: 5, h4: 'Happy students', details: 'Only 3 to 5 students are enrolled into a class at the same time, so that we can make sure every student has enough time interacting with teachers.'},
 		{counter: 57, h4: 'Courses units', details: 'We have 57 course units for students in different levels.'}
 	]
 };
