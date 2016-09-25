@@ -154,7 +154,7 @@ export const contact = {
 		{
 			key: '微信',
 			content: '+1 778 681 1568',
-			icon: 'icon-envelope-open contact-list__icon g-dp-block g-mb-10'
+			icon: 'icon-link contact-list__icon g-dp-block g-mb-10'
 		}
 	]
 };

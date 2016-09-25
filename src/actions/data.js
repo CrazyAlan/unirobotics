@@ -157,7 +157,7 @@ export const contact = {
 		{
 			key: 'weixin',
 			content: '+1 778 681 1568',
-			icon: 'icon-envelope-open contact-list__icon g-dp-block g-mb-10'
+			icon: 'icon-link contact-list__icon g-dp-block g-mb-10'
 		}
 	]
 };
