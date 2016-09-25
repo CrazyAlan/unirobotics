@@ -6,6 +6,10 @@ import cookie from 'react-cookie';
 
 
 class Header extends Component {
+
+  cookieSave(lang){
+  	cookie.save('lang', lang);
+  }
   componentDidMount() {
 
 	 var lang;
@@ -17,10 +21,10 @@ class Header extends Component {
 
 	 if (lang === 'zh-cn' || lang === 'cn') {
 	 	updateConfig('cn');
-	 	cookie.save('lang', 'cn' );
+	 	this.cookieSave('cn');
 	 } else {
 	 	updateConfig('en');
-	 	cookie.save('lang', 'en' );	 	
+	 	this.cookieSave( 'en' );	 	
 	 };
   }
 
@@ -31,10 +35,10 @@ class Header extends Component {
   	console.log('previous state language', lang);
    	if (lang === 'en') {
   		updateConfig('cn');
-	 	cookie.save('lang', 'cn' );  		
+	 	this.cookieSave('cn');
   	} else {
   		updateConfig('en')
-  		cookie.save('lang', 'en' );
+	 	this.cookieSave( 'en' );	 	
   	};
 
   	fetchPromotions();
@@ -107,7 +111,7 @@ class Header extends Component {
 						<ul className="nav navbar-nav">
 							{
 								header.tabs.map((tab, i) => {
-									if (tab.name === 'Courses') {
+									if (tab.link === '/courses') {
 										return (
 											<li className="page-scroll home nav__text dropdown " key={i}>
 												<Link to={tab.link}>{tab.name}</Link>
