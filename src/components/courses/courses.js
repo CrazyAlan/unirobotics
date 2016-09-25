@@ -69,10 +69,10 @@ class Courses extends Component {
 							</p>
 							<p className="course-info__text g-mb-25">{course.description}</p>
 							<span className="course-info__dur g-mb-20 g-dp-block">
-								<i className="fa course-info__icon fa-calendar g-mr-10"></i> Duration: {course.duration} months
+								<i className="fa course-info__icon fa-calendar g-mr-10"></i> {course.duration} 
 							</span>
 							<span className="course-info__level">
-								<i className="fa course-info__icon fa-certificate g-mr-10"></i> Degree level: {course.level}
+								<i className="fa course-info__icon fa-certificate g-mr-10"></i> {course.level}
 							</span>
 						</div>
 					</div>

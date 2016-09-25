@@ -21,11 +21,11 @@ class Promotion extends Component {
 							<a  className="course__cat g-padding-10">{promotion.level}</a>
 							<div className="course--bottom">
 								<span className="course__dur">
-									<i className="fa course__icon fa-calendar g-mr-10 g-mb-10"></i> Duration: {promotion.duration}
+									<i className="fa course__icon fa-calendar g-mr-10 g-mb-10"></i> {promotion.duration}
 								</span>
 								<h1 className="course__title g-mb-20 font-main"><Link to={'/courses/?courseID='+promotion.id}> {promotion.course}</Link></h1>
 								<p className="course__text g-mb-30">{promotion.description}</p>
-								<Link to={'/courses/?courseID='+promotion.id} className="btn-u course__btn-u">Learn More</Link>
+								<Link to={'/courses/?courseID='+promotion.id} className="btn-u course__btn-u">{promotion.learnMore}</Link>
 							</div>
 						</div>
 					</div>

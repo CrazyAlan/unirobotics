@@ -6,14 +6,14 @@ export const header = {
 		{name: '联系我们', link: '/contacts'}
 	],
 	socials: [
-		{link: '/contacts', name: '微信'}
+		{link: '/contacts', name: 'weixin'}
 	]
 };
 
 export const promotions = [
-                    {'course': '乐高', 'level': '初级','id': 0, 'img': '/assets/img/home/lego_cropped.png', 'duration': '8个月', 'description': '世界上最大的玩具制造商乐高集团（Lego）出品的头脑风暴（Mindstorm）机器人平台，寓教于乐，培养孩子动手能力和实践能力。'},
-                    {'course': 'Arduino', 'level': '中级' ,'id': 1, 'img': '/assets/img/home/arduino_cropped.png', '时长': '8个月', 'description': '世界上最流行的开源硬件平台Arduino，学员能通过本课程学习基础电路，机械和计算机编程相关的全方位知识。'},
-                    {'course': '树莓派', 'level': '高级' ,'id': 2, 'img': '/assets/img/home/RPi_cropped.png', '时长': '8个月', 'description': '世界上最小的掌上电脑树莓派(Raspberry Pi)源自英国，学员能通过本课程学习Linux 环境高级编程和复杂的机器人控制。'}
+                    {'course': '乐高', 'level': '初级','id': 0, 'learnMore': '详情', 'img': '/assets/img/home/lego_cropped.png', 'duration': '时长：8个月', 'description': '世界上最大的玩具制造商乐高集团（Lego）出品的头脑风暴（Mindstorm）机器人平台，寓教于乐，培养孩子动手能力和实践能力。'},
+                    {'course': 'Arduino', 'level': '中级' ,'id': 1, 'learnMore': '详情', 'img': '/assets/img/home/arduino_cropped.png', 'duration': '时长：8个月', 'description': '世界上最流行的开源硬件平台Arduino，学员能通过本课程学习基础电路，机械和计算机编程相关的全方位知识。'},
+                    {'course': '树莓派', 'level': '高级' ,'id': 2, 'learnMore': '详情', 'img': '/assets/img/home/RPi_cropped.png', 'duration': '时长：8个月', 'description': '世界上最小的掌上电脑树莓派(Raspberry Pi)源自英国，学员能通过本课程学习Linux 环境高级编程和复杂的机器人控制。'}
                    ];
 
 export const courses = [
@@ -25,20 +25,20 @@ export const courses = [
 	                  	abstract: '世界上最大的玩具制造商乐高集团（Lego）出品的头脑风暴（Mindstorm）机器人平台，寓教于乐，培养孩子动手能力和实践能力。',
 
 	                  	courses: [
-	                               {'course': '单元1：基本移动与传感器', 'level': 'Lego', 'id': 0, 'img': '/assets/img/lego/level1.jpg', 'price': 'Price $300', 'description': '这个单元会带领学生入门乐高头脑风暴机器人平台，学生会学习到基础的模块和传感器的使用。此单元不需要学生有任何相关基础知识。', 'duration': 1.5, courseDate: 'Course Schedule: SAT 14:00pm', startDate: 'Start from: Oct.1'},
-	                               {'course': '单元2: 更多传感器与逻辑语言', 'level': 'Lego', 'id': 0, 'img': '/assets/img/lego/level2.png', 'price': 'Price $350', 'description': '学生在学习此单元之前需理解基本动作的控制和传感器的使用。在此单元中，学生会学习更多传感器的使用以及基本的编程。', 'duration': 1.5, courseDate: 'Course Schedule: SAT 14:00pm', startDate: 'Start from: Oct.1'}, 
-                               {'course': '单元3: 基本控制理论', 'level': 'Lego', 'id': 0, 'img': '/assets/img/lego/level3.jpg', 'price': 'Price $400', 'description': '学生在学习此单元之前需理解大部分传感器的使用和控制。在此单元中，学生会学习简单的控制理论。', 'duration': 1.5,  courseDate: 'Course Schedule: SAT 14:00pm', startDate: 'Start from: Oct.1'}, 
-                                   {'course': '单元4: 实践项目', 'level': 'Lego', 'id': 0, 'img': '/assets/img/lego/level4.png', 'price': 'Price $450', 'description': '在此单元中，学生会运用他们在之前的所有单元所学到的知识，在老师的帮助下完成结业课程项目', 'duration': 1.5, courseDate: 'Course Schedule: SAT 14:00pm', startDate: 'Start from: Oct.1'}, 
+	                               {'course': '单元1：基本移动与传感器', 'level': '课程平台：乐高', 'id': 0, 'img': '/assets/img/lego/level1.jpg', 'price': '价格 $300', 'description': '这个单元会带领学生入门乐高头脑风暴机器人平台，学生会学习到基础的模块和传感器的使用。此单元不需要学生有任何相关基础知识。', 'duration': '课时：1.5个月', courseDate: '课程安排：周六 14:00pm', startDate: '开课：10月1日'},
+	                               {'course': '单元2: 更多传感器与逻辑语言', 'level': '课程平台：乐高', 'id': 0, 'img': '/assets/img/lego/level2.png', 'price': '价格 $350', 'description': '学生在学习此单元之前需理解基本动作的控制和传感器的使用。在此单元中，学生会学习更多传感器的使用以及基本的编程。', 'duration': '课时：1.5个月', courseDate: '课程安排：周六 16:00pm', startDate: '开课：10月1日'}, 
+                               {'course': '单元3: 基本控制理论', 'level': '课程平台：乐高', 'id': 0, 'img': '/assets/img/lego/level3.jpg', 'price': '价格 $400', 'description': '学生在学习此单元之前需理解大部分传感器的使用和控制。在此单元中，学生会学习简单的控制理论。', 'duration': '课时：1.5个月',  courseDate: '课程安排：周日 14:00pm', startDate: '开课：10月1日'}, 
+                                   {'course': '单元4: 实践项目', 'level': '课程平台：乐高', 'id': 0, 'img': '/assets/img/lego/level4.png', 'price': '价格 $450', 'description': '在此单元中，学生会运用他们在之前的所有单元所学到的知识，在老师的帮助下完成结业课程项目', 'duration': '课时：1.5个月', courseDate: '课程安排：周日 16:00pm', startDate: '开课：10月1日'}, 
                                    ]}, 
                         { 
                             title: '更上一层楼', description: 'ARDUINO', 
                             id:1, 
                             abstract:'世界上最流行的开源硬件平台Arduino，学员能通过本课程学习基础电路，机械和计算机编程相关的全方位知识。',     
                             courses: [
-                                   {'course': '单元1: IDE编程入门与基础传感器', 'level': 'Arduino', 'id': 0, 'img': '/assets/img/arduino/level1.jpg', 'price': 350, 'description': '在此单元中，学生会学习Arduino平台基础和IDE编程，学生也会学习到基础传感器的使用。', 'duration': 2, courseDate: 'Course schedule: SAT 14:00pm', startDate: 'Start Date Oct.1'}, 
-                                   {'course': '单元2: 机械臂与控制理论', 'level': 'Arduino', 'id': 0, 'img': '/assets/img/arduino/level2.jpg', 'price': 400, 'description': '在学习本单元之前，学生需掌握Arduino编程基础，本单元会带领学生学习伺服电机和更多传感器的使用，以及机械臂的设计与控制。', 'duration': 2, courseDate: 'SAT 14:00pm', startDate: 'Oct.1'}, 
-                                   {'course': '单元3: 移动机器人平台', 'level': 'Arduino', 'id': 0, 'img': '/assets/img/arduino/level3.jpg', 'price': 450, 'description': '在学习本单元之前，学生需已掌握Arduio编程进阶知识以及大量传感器的使用，学生会在此单元中学习如何制作一个移动机器人平台并给它编程。', 'duration': 2, courseDate: 'SAT 14:00pm', startDate: 'Oct.1'}, 
-                                   {'course': '单元4: 实践项目', 'level': 'Arduino', 'id': 0, 'img': '/assets/img/arduino/level4.jpg', 'price': 500, 'description': '在此单元中，学生会运用他们在之前所有单元所学到的知识，在老师的帮助下完成结业课程项目。', 'duration': 2}, 
+                                   {'course': '单元1: IDE编程入门与基础传感器', 'level': '课程平台：Arduino', 'id': 0, 'img': '/assets/img/arduino/level1.jpg', 'price': '价格 $350', 'description': '在此单元中，学生会学习Arduino平台基础和IDE编程，学生也会学习到基础传感器的使用。', 'duration': '课时：2个月', courseDate: '课程安排：周六 10:00am', startDate: '开课：10月1日'}, 
+                                   {'course': '单元2: 机械臂与控制理论', 'level': '课程平台：Arduino', 'id': 0, 'img': '/assets/img/arduino/level2.jpg', 'price': '价格 $400', 'description': '在学习本单元之前，学生需掌握Arduino编程基础，本单元会带领学生学习伺服电机和更多传感器的使用，以及机械臂的设计与控制。', 'duration': '课时：2个月', courseDate: '课程安排：周六 12:00pm', startDate: '开课：10月1日'}, 
+                                   {'course': '单元3: 移动机器人平台', 'level': '课程平台：Arduino', 'id': 0, 'img': '/assets/img/arduino/level3.jpg', 'price': '价格 $450', 'description': '在学习本单元之前，学生需已掌握Arduio编程进阶知识以及大量传感器的使用，学生会在此单元中学习如何制作一个移动机器人平台并给它编程。', 'duration': '课时：2个月', courseDate: '课程安排：周日 10:00am', startDate: '开课：10月1日'}, 
+                                   {'course': '单元4: 实践项目', 'level': '课程平台：Arduino', 'id': 0, 'img': '/assets/img/arduino/level4.jpg', 'price': '价格 $500', 'description': '在此单元中，学生会运用他们在之前所有单元所学到的知识，在老师的帮助下完成结业课程项目。', 'duration': '课时：2个月', courseDate: '课程安排：周日 12:00pm', startDate: '开课：10月1日'}, 
                                    ]}, 
                     { 
                         title: '挑战你自己',

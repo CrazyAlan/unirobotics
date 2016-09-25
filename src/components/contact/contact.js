@@ -84,7 +84,7 @@ class Contact extends Component {
 									<ul className="list-unstyled col-md-3 g-mb-30">
 										<li><span className="icon-call-in contact-list__icon g-dp-block g-mb-10"></span></li>
 										<li className="contact-list__item-1">Phone number</li>
-										<li className="contact-list__item-2">+778 681 1568</li>
+										<li className="contact-list__item-2">+1 778 681 1568</li>
 									</ul>
 
 									<ul className="list-unstyled col-md-3">
@@ -96,7 +96,7 @@ class Contact extends Component {
 									<ul className="list-unstyled col-md-3">
 										<li><span className="icon-envelope-open contact-list__icon g-dp-block g-mb-10"></span></li>
 										<li className="contact-list__item-1">Wexin</li>
-										<li className="contact-list__item-2">+17786811568</li>
+										<li className="contact-list__item-2">+1 778 681 1568</li>
 									</ul>
 								</div>
 							</div>
