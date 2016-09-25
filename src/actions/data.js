@@ -137,8 +137,29 @@ export const partners = {
 
 export const contact = {
 	tab1: 'Write us',
-	tab2: 'Contacts'
-
+	tab2: 'Contacts',
+	contents: [
+		{
+			key: 'Address',
+			content: '8888 University Dr, Burnaby, BC V5A 1S6',
+			icon: 'icon-directions contact-list__icon g-dp-block g-mb-10'
+		},
+		{
+			key: 'phone',
+			content: '+1 778 681 1568',
+			icon: 'icon-call-in contact-list__icon g-dp-block g-mb-10'
+		},
+		{
+			key: 'email',
+			content: 'unirobotics.ca@gmail.com',
+			icon: 'icon-envelope-open contact-list__icon g-dp-block g-mb-10'
+		},
+		{
+			key: 'weixin',
+			content: '+1 778 681 1568',
+			icon: 'icon-envelope-open contact-list__icon g-dp-block g-mb-10'
+		}
+	]
 };
 
 export const footer = {

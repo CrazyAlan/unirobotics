@@ -133,14 +133,35 @@ export const partners = {
 };
 
 export const contact = {
-	tab1: 'Write us',
-	tab2: 'Contacts'
-
+	tab1: '信息',
+	tab2: '联系',
+	contents: [
+		{
+			key: '地址',
+			content: '8888 University Dr, Burnaby, BC V5A 1S6',
+			icon: 'icon-directions contact-list__icon g-dp-block g-mb-10'
+		},
+		{
+			key: '电话',
+			content: '+1 778 681 1568',
+			icon: 'icon-call-in contact-list__icon g-dp-block g-mb-10'
+		},
+		{
+			key: '邮件',
+			content: 'unirobotics.ca@gmail.com',
+			icon: 'icon-envelope-open contact-list__icon g-dp-block g-mb-10'
+		},
+		{
+			key: '微信',
+			content: '+1 778 681 1568',
+			icon: 'icon-envelope-open contact-list__icon g-dp-block g-mb-10'
+		}
+	]
 };
 
 export const footer = {
 	logo: '/assets/img/logo-foot.png',
-	description: 'We are a team of ambitious robotics professionals working on teenager robotics education in Vancouver, Canada. Our robotics courses are based on the latest, most popular platforms ranging from LEGO, Arduino to Raspberry Pi.',
+	description: '21世纪会是机器人技术大爆发的世纪，为了让您的孩子赢在起跑线上，我们为您的孩子准备了全方位各层次机器人相关课程。我们是来自英属哥伦比亚大学（UBC）和西蒙飞沙大学（SFU）的UniRobotics机器人教育团队，团队成员均有硕士以上计算机，电子和机械相关学位。',
 	socials: [
 		{link: '/contacts', type: 'weixin'},
 		{link: '/contacts', type: 'facebook'}
